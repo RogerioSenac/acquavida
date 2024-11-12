@@ -98,7 +98,7 @@ h1.texto {
     background-image: url(../imagem/tela-video.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40%;
+    width: 65%;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
@@ -128,13 +128,13 @@ h1.texto {
 /* container Pagina Quem Somos */
 
 .container-quem-somos {
-    display: flex;               /* Ativa o Flexbox para o alinhamento */
-    flex-direction: column;      /* Organiza os elementos na coluna */
-    justify-content: center;     /* Alinha os itens no centro verticalmente */
-    align-items: center;         /* Alinha os itens no centro horizontalmente */
-    min-height: 100vh;            /* A section ocupa toda a altura da tela */
-    padding: 20px;               /* Espaçamento interno */
-    text-align: center;          /* Garante que o texto dentro da section fique centralizado */
+    display: flex;           /* Ativa o Flexbox para o alinhamento */
+    flex-direction: column;  /* Organiza os elementos na coluna */
+    justify-content: center; /* Alinha os itens no centro verticalmente */
+    align-items: center;     /* Alinha os itens no centro horizontalmente */
+    min-height: 100vh;       /* A section ocupa toda a altura da tela */
+    padding: 20px;           /* Espaçamento interno */
+    text-align: center;      /* Garante que o texto dentro da section fique centralizado */
     background-color: white;
 }
 
