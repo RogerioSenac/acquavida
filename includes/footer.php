@@ -1,140 +1,69 @@
-<?php
-include($_SERVER['DOCUMENT_ROOT'] . '/Projetos_Git/Projeto-Acqua-Vida/includes/header.php');
-?>
-
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academia Acqua Vida</title>
-    <link rel="stylesheet" href="../Projeto-Acqua-Vida/Assets/css/estilo.css">
-    <link rel="shortcut icon" href="../Projeto-Acqua-Vida/Assets/imagem/icone_logo_acqua.png" type="image/png">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
-</head>
-
-<body>
-    <!-- Seção de vídeo de apresentação -->
-    <section class="container-video-apresenta">
-        <article class="apresenta">
-            <h1>Prazer, somos a Acqua Vida!</h1>
-            <video id="meuVideo" width="100%" height="auto" controls>
-                <source src="./Assets/videos/video_apresentacao.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-            </video>
-            <h4>Ajuste o volume do seu aparelho e dê play no vídeo!</h4>
-        </article>
-    </section>
-
-    <!-- Seção de serviços -->
-    <section class="container-servico">
-        <article class="servico">
-            <p class="servico-texto">
-                Temos atividades para toda a família:<br>
-                Saiba Mais
-            </p>
-            <div class="row botoes-servicos">
-                <div class="col-4">
-                    <a href="./pages/musculacao.php">Musculação</a>
-                </div>
-                <div class="col-4">
-                    <a href="./pages/hidro.php">Hidroterapia</a>
-                </div>
-                <div class="col-4">
-                    <a href="./pages/hidro.php">Hidroginástica</a>
-                </div>
-                <div class="col-4">
-                    <a href="./pages/natacao.php">Natação Baby</a>
-                </div>
-                <div class="col-4">
-                    <a href="./pages/natacao.php">Natação Geral</a>
-                </div>
-                <div class="col-4">
-                    <a href="./pages/avaliacao.php">Avaliação Física</a>
+<!-- Rodapé Principal -->
+<section class="rodape-Acad">
+    <footer class="rodape">
+        <!-- Conteúdo do rodapé principal -->
+        <div class="card-group">
+            <div class="card-body-1">
+                <h3>Venha nos visitar.</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Rua Januário Lisboa, 82, Vila Elias, Jacupiranga, SP</li>
+                    <li><i class="fas fa-envelope"></i> acquavidacademia@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card-body-3">
+                <h3>Horários da Academia</h3>
+                <p>
+                    <span class="servico-texto-realce">SEGUNDA À SEXTA</span><br>
+                    05:30 às 10:30<br>
+                    14:00 às 22:00<br>
+                    <span class="servico-texto-realce">SÁBADO</span><br>
+                    08:00 às 12:00<br>
+                    <span class="servico-texto-realce">DOMINGOS E FERIADOS</span><br>
+                    FECHADOS
+                </p>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card-body-2">
+                <h3>Siga-nos nas redes sociais</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/AcademiaAcquaVida/" class="facebook" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://www.instagram.com/acquavidaacademia/" class="instagram" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5513981555763&text=..." class="whatsapp" target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+                    <a href="mailto:acquavidacademia@gmail.com" class="email" target="_blank"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
-            <p class="servico-texto">
-                Venha nos visitar e fazer uma aula experimental!
-            </p>
-        </article>
-    </section>
+        </div>
+    </footer>
+</section>
 
-    <!-- Seção do mapa -->
-    <section id="mapa" class="d-flex flex-column align-items-center">
-        <div class="content text-center">
-            <h4>Encontre-nos no Mapa</h4>
-            <div id="map" style="height: 350px; width: 100%;"></div>
-            <div class="card bg-transparent">
-                <div class="card-mapa">
-                    <button id="tracarRota" class="btn btn-dark">Traçar Rota</button>
+<!-- Rodapé DevRGT -->
+<section class="rodape-DevRGT">
+    <div class="interface" id="contato">
+        <div class="line-footer">
+            <!-- <div class="flex">
+                <div class="logo-footer">
+                    <img src="./Assets/imagem/logoDev.png" alt="Logotipo" class="img-fluid" style="max-height: 100px;">
                 </div>
+                <div class="btn-social">
+                    <a href="#"><button><i class="fa-brands fa-facebook"></i></button></a>
+                    <a href="https://www.instagram.com/developers.rgt" target="_blank"><button><i class="fa-brands fa-instagram"></i></button></a>
+                    <a href="https://www.linkedin.com/in/developers-rgt-862402309" target="_blank"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                    <a href="https://www.youtube.com/@developers_rgt" target="_blank"><button><i class="fa-brands fa-youtube"></i></button></a>
+                    <a href="https://github.com/DevelopersRGT" target="_blank"><button><i class="fa-brands fa-github"></i></button></a>
+                </div>
+            <!-- </div> -->
+            <div class="line-footer borda">
+                <p class="designby">
+                    <span>Design By - Rogerio Pupo Toledo</span>
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope" id="faleicon"></i>
+                    <a id="falecom" href="mailto:falecomdevelopersrgt@gmail.com">falecomdevelopersrgt@gmail.com</a>
+                </p>
             </div>
-        </div> <!-- Fechamento da div content -->
-    </section>
-
-    <?php
-    include("./includes/footer.php")
-    ?>
-
-    <script>
-        // Evento que redireciona após o vídeo ser reproduzido
-        document.getElementById('meuVideo').addEventListener('ended', function () {
-            window.location.href = 'index.php';
-        });
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const links = document.querySelectorAll('a[href^="#"]');
-            links.forEach(link => {
-                link.addEventListener('click', (event) => {
-                    event.preventDefault();
-                    const target = document.querySelector(link.getAttribute('href'));
-                    target.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
-            });
-        });
-    </script>
-
-    <!-- Leaflet.js (Mapas) -->
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
-    <script>
-        // Inicializa o mapa com as coordenadas da academia
-        var map = L.map('map').setView([-24.703404269966082, -48.00611380606861], 13);
-
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-
-        L.marker([-24.703404269966082, -48.00611380606861]).addTo(map)
-            .bindPopup('Academia Acqua Vida - Jacupiranga<br>Rua Januario Lisboa, 82 - Vila Elias, Jacupiranga - SP')
-            .openPopup();
-
-        // Função que traça a rota até a academia
-        document.getElementById('tracarRota').addEventListener('click', function () {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(function (position) {
-                    var lat = position.coords.latitude;
-                    var lon = position.coords.longitude;
-                    var destination = "-24.703404269966082, -48.00611380606861";
-                    var url =
-                        `https://www.google.com/maps/dir/?api=1&origin=${lat},${lon}&destination=${destination}&travelmode=driving`;
-                    window.open(url, '_blank');
-                }, function () {
-                    alert(
-                        "Não foi possível acessar a localização. Verifique suas permissões de geolocalização.");
-                });
-            } else {
-                alert("Geolocalização não é suportada pelo seu navegador.");
-            }
-        });
-    </script>
-</body>
-
-</html>
+        </div>
+    </div>
+</section>

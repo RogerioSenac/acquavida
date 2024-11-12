@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid nav_bar">
             <a class="navbar-brand" href="#">
-                <img src="/Projetos_Git/Projeto-Acqua-Vida/Assets/imagem/logo_acqua_vida.jpg" alt="Logotipo" class="img-fluid" style="max-height: 100px;">
+                <img src="../Assets/imagem/logo_acqua_vida.jpg" alt="Logotipo" class="img-fluid" style="max-height: 100px;">
             </a>
             <h1>Somos uma equipe promovendo Saúde!</h1>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="../index.php">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Projetos_Git/Projeto-Acqua-Vida/pages/quem_somos.php">Sobre Nós</a>
+                        <a class="nav-link" href="./pages/quem_somos.php">Sobre Nós</a>
                     </li>
 
                     <li class="nav-item">
