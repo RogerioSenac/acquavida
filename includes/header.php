@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid nav_bar">
             <a class="navbar-brand" href="#">
-            <img src="/Projetos_Git/Projeto-Acqua-Vida/assets/imagem/logo_acqua_vida.jpg" alt="Logotipo" class="img-fluid" style="max-height: 100px;">
+                <img src="/Projetos_Git/Projeto-Acqua-Vida/assets/imagem/logo_acqua_vida.jpg" alt="Logotipo" class="img-fluid" style="max-height: 100px;">
             </a>
             <h1 class="texto">Somos uma equipe promovendo Saúde!</h1>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -31,7 +31,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/quem_somos.php">Sobre Nós</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.facebook.com/AcademiaAcquaVida/photos_by?locale=pt_BR" target="_blank">Fotos</a>
                     </li>
@@ -45,3 +44,6 @@
 
     <!-- Scripts Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
