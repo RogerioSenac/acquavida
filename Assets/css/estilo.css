@@ -19,23 +19,23 @@ h1 {
 }
 
 /**************************** Cabeçalho (Menu) ******************/
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 30vh;
-    /* Altura do cabeçalho */
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
+.container-fluid {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente no centro */
+    align-items: center;     /* Alinha verticalmente no centro */
+    height: 100%;            /* Garante que o contêiner ocupe toda a altura disponível */
+    position: relative;
 }
 
-.container-fluid h1 {
-    text-align: center;
+h1.texto {
+    text-align: center;     /* Garante que o texto dentro de h1 seja centralizado */
     color: #F6D901;
-    margin-left: 10px;
+    font-size: 2rem;        /* Ajuste o tamanho da fonte conforme necessário */
+    margin: 0;              /* Remove margens padrão */
+    padding: 0;             /* Remove padding, se houver */
+    justify-content: center;
 }
+
 
 .nav_bar {
     background: url('../imagem/piscina.jpg') no-repeat center center/cover;
@@ -98,7 +98,7 @@ header {
     background-image: url(../imagem/tela-video.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 60%;
+    width: 40%;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
