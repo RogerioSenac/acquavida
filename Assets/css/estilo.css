@@ -31,10 +31,18 @@ header {
     z-index: 1000;
 }
 
-.container-fluid h1 {
+.container-fluid{
+    border: solid red;
+    align-items: center;
+}
+
+h1.texto {
+    display:flex;
     text-align: center;
     color: #F6D901;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    border: solid red;
+    
 }
 
 .nav_bar {

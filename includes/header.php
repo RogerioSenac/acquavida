@@ -20,9 +20,9 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid nav_bar">
             <a class="navbar-brand" href="#">
-                <img src="../Assets/imagem/logo_acqua_vida.jpg" alt="Logotipo" class="img-fluid" style="max-height: 100px;">
+            <img src="/Projetos_Git/Projeto-Acqua-Vida/assets/imagem/logo_acqua_vida.jpg" alt="Logotipo" class="img-fluid" style="max-height: 100px;">
             </a>
-            <h1>Somos uma equipe promovendo Saúde!</h1>
+            <h1 class="texto">Somos uma equipe promovendo Saúde!</h1>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
