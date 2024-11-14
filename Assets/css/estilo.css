@@ -99,7 +99,6 @@ h1.texto {
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
-
     padding: 30px;
     border-radius: 10px;
     text-align: center;
@@ -150,6 +149,13 @@ h1.texto {
 
 
 .container-quem-somos {
+    display: flex;           /* Ativa o Flexbox para o alinhamento */
+    flex-direction: column;  /* Organiza os elementos na coluna */
+    justify-content: center; /* Alinha os itens no centro verticalmente */
+    align-items: center;     /* Alinha os itens no centro horizontalmente */
+    min-height: 100vh;       /* A section ocupa toda a altura da tela */
+    padding: 20px;           /* Espaçamento interno */
+    text-align: center;      /* Garante que o texto dentro da section fique centralizado */
     background-color: white;
 }
 
@@ -189,12 +195,29 @@ h1.texto {
     /* Alinha o texto pelo modo Justificado */
     line-height: 1.6;
     /* Opicional: melhora a legibilidade */
-
 }
 
 .container-quem-somos .servico-texto-realce {
     color: #D43F38;
     font-weight: bold;
+}
+
+/* Estilo para o botão Voltar */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;          /* Tamanho do botão */
+    font-size: 18px;             /* Tamanho da fonte */
+    text-decoration: none;       /* Remove o sublinhado */
+    background-color: #6c757d;   /* Cor de fundo */
+    color: white;                /* Cor do texto */
+    border-radius: 5px;          /* Bordas arredondadas */
+    margin-top: 20px;            /* Espaçamento superior para o botão */
+    transition: background-color 0.3s ease;  /* Transição suave para o efeito hover */
+}
+
+/* Efeito de hover para o botão */
+.btn:hover {
+    background-color: #5a6268;   /* Cor do fundo ao passar o mouse */
 }
 
 
