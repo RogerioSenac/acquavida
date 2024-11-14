@@ -17,14 +17,14 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
 
 <body>
     <section class="container-video-apresenta">
+        <h1>Prazer, somos a Acqua Vida!</h1>
         <article class="apresenta">
-            <h1>Prazer, somos a Acqua Vida!</h1>
-            <video id="meuVideo" width="440" height="260" controls >
+            <video id="meuVideo" controls >
                 <source src="./Assets/videos/video_apresentacao.mp4" type="video/mp4">
                 Seu navegador não suporta o elemento de vídeo.
             </video>
-            <h4>Ajuste o volume do seu aparelho e de play no video!<h4>
         </article>
+        <h4>Ajuste o volume do seu aparelho e de play no video!<h4>
     </section>
 
     <section class="container-servico">
