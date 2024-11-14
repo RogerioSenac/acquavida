@@ -44,7 +44,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
                 Quer o seu objetivo seja estética, saúde, desempenho esportivo ou reabilitação, a musculação na Acqua Vida pode ser adaptada para atender às suas expectativas. Convidamos você a conhecer nossos programas e descobrir como a musculação pode transformar sua vida, promovendo não só o fortalecimento físico, mas uma evolução completa em bem-estar e qualidade de vida.
             </p>
         </article>
-
+        <a href="../index.php" class="btn btn-secondary">Voltar</a>
     </section>
 
     <?php include("../includes/footer.php") ?>

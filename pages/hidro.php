@@ -56,6 +56,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
                 A hidroginástica na <span class="servico-texto-realce"> Academia Acqua Vida </span>é uma escolha para quem busca uma atividade completa, divertida e acessível a todos. Seja qual for seu objetivo — melhorar a saúde, recuperar-se de uma lesão ou socializar — a hidroginástica proporciona benefícios que vão muito além do físico, contribuindo para uma vida mais ativa, saudável e feliz.
             </p>
         </article>
+        <a href="../index.php" class="btn btn-secondary">Voltar</a>
     </section>
 
     <?php include("../includes/footer.php") ?>

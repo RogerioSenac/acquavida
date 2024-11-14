@@ -50,6 +50,7 @@ include '../includes/header.php'
                 Nosso compromisso é garantir que cada aluno tenha uma experiência única e transformadora, promovendo não apenas o desenvolvimento físico, mas também o fortalecimento da mente. Venha nos conhecer e descubra como podemos trabalhar juntos para que você atinja seus objetivos!
             </p>
         </article>
+        <a href="../index.php" class="btn btn-secondary">Voltar</a>
     </section>
 
     

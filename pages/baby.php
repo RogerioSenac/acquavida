@@ -39,7 +39,7 @@ include("../includes/header.php")
                 Nossa abordagem busca inspirar e transformar nossos alunos, incentivando-os a superar barreiras e desenvolver habilidades para a vida, além do esporte.
             </p>
         </article>
-
+        <a href="../index.php" class="btn btn-secondary">Voltar</a>
     </section>
 
     <?php include("../includes/footer.php") ?>

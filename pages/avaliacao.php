@@ -53,6 +53,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
                 <b>* Segurança:</b> A personalização do treino garante uma prática segura, respeitando os limites e necessidades de cada aluno.
             </p>
         </article>
+        <a href="../index.php" class="btn btn-secondary">Voltar</a>
     </section>
 
     <?php include("../includes/footer.php") ?>

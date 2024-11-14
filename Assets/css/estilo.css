@@ -98,7 +98,8 @@ h1.texto {
     background-image: url(../imagem/tela-video.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40%;
+    width: 50%;
+
     padding: 30px;
     border-radius: 10px;
     text-align: center;
@@ -126,6 +127,27 @@ h1.texto {
 }
 
 /* container Pagina Quem Somos */
+
+.btn.btn-secondary {
+    display: block; /* Faz o botão se comportar como um bloco */
+    margin: 20px auto; /* Centraliza com margens automáticas */
+    padding: 10px 20px; /* Ajuste o padding conforme necessário */
+    background-color: #6c757d; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave para o efeito hover */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    width: 10%; /* Largura ajustada ao conteúdo */
+}
+
+.btn.btn-secondary:hover {
+    background-color: #5a6268; /* Cor de fundo alterada ao passar o mouse */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+}
+
+
 
 .container-quem-somos {
     background-color: white;
