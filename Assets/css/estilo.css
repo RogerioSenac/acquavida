@@ -501,3 +501,140 @@ h1.texto {
     text-decoration: none;
     color: white;
 }
+
+/* Responsividade para diferentes tamanhos de tela */
+
+/* Tablets em modo retrato */
+@media (max-width: 768px) {
+    .container-quem-somos .servico {
+        width: 80%;  /* Torna a largura dos serviços mais estreita */
+    }
+
+    .container-servico {
+        padding: 40px 20px;  /* Ajusta o padding para telas menores */
+    }
+
+    .navbar-nav {
+        flex-direction: column; /* Organiza os links em coluna */
+    }
+
+    .container-video-apresenta {
+        height: auto; /* Ajusta a altura do container para telas menores */
+    }
+
+    #meuVideo {
+        width: 100%;
+        height: auto; /* Ajusta as dimensões do vídeo */
+    }
+
+    .card-group {
+        flex-direction: column;  /* Organiza os cards em coluna */
+        margin-left: 0;
+    }
+
+    .social-icons a {
+        font-size: 2rem;  /* Reduz o tamanho dos ícones para se ajustar à tela */
+    }
+
+    .btn.btn-secondary {
+        width: 80%; /* Ajusta a largura do botão */
+        padding: 10px;  /* Ajusta o padding */
+    }
+
+    .rodape-DevRGT .flex {
+        flex-direction: column; /* Organiza o rodapé em coluna */
+    }
+}
+
+/* Tablets em modo paisagem */
+@media (max-width: 1024px) {
+    .container-video-apresenta {
+        height: 500px; /* Ajusta a altura do video */
+    }
+
+    .container-quem-somos .servico {
+        width: 60%;  /* Ajusta a largura dos serviços */
+    }
+
+    .card-group {
+        flex-direction: row;  /* Exibe os cards em linha novamente */
+    }
+
+    .navbar-nav {
+        flex-direction: row;  /* Alinha os itens da barra de navegação horizontalmente */
+    }
+
+    .social-icons a {
+        font-size: 2.5rem;  /* Ajusta o tamanho dos ícones */
+    }
+}
+
+/* Smartphones em modo retrato */
+@media (max-width: 480px) {
+    .navbar-nav {
+        font-size: 1.2rem;  /* Ajusta o tamanho da fonte para dispositivos pequenos */
+        padding: 10px;  /* Ajusta o espaçamento */
+    }
+
+    .container-video-apresenta {
+        padding: 10px;  /* Ajusta o padding para video */
+    }
+
+    .apresenta {
+        width: 100%;
+        margin-left: 0;  /* Ajusta para centralizar o vídeo */
+    }
+
+    .btn.btn-secondary {
+        width: 100%;  /* Faz o botão ocupar toda a largura */
+    }
+
+    .container-servico {
+        padding: 40px 20px;  /* Ajusta o padding para o serviço */
+    }
+
+    .container-quem-somos .servico {
+        width: 90%;  /* Ajusta a largura do serviço */
+    }
+
+    .social-icons {
+        justify-content: space-around;  /* Organiza os ícones de redes sociais */
+    }
+
+    .rodape {
+        height: auto;  /* Ajusta a altura do rodapé */
+        padding: 40px 20px;  /* Ajusta o padding do rodapé */
+    }
+
+    .rodape-DevRGT .flex {
+        flex-direction: column;  /* Organiza o rodapé em coluna */
+    }
+
+    .card-group {
+        flex-direction: column;  /* Coloca os cards em coluna */
+    }
+}
+
+/* Smart TVs */
+@media (max-width: 1920px) {
+    .container-video-apresenta {
+        height: 500px; /* Ajusta o vídeo para Smart TVs */
+    }
+
+    .navbar-nav {
+        font-size: 1.5rem;  /* Aumenta a fonte dos itens do menu */
+    }
+
+    .social-icons a {
+        font-size: 3rem;  /* Aumenta o tamanho dos ícones sociais */
+    }
+
+    .card-group {
+        flex-direction: row;  /* Organiza os cards em linha */
+    }
+
+    .rodape {
+        height: auto;
+        padding: 50px 20px;  /* Ajusta o padding para a Smart TV */
+    }
+}
