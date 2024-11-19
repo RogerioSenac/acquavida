@@ -60,12 +60,16 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
     </section>
 
     <section id="mapa" class="d-flex flex-column align-items-center">
+        <div class="encontre">
+            <h4>Click em Traçar Rota e <br>encontre-nos no Mapa</h4>
+        </div>
         <div class="content text-center">
-            <h4>Encontre-nos no Mapa</h4>
-            <div id="map" style="height: 356px; width: 53%;"></div>
+            <div id="map">
+
+            </div>
 
             <div class="card-mapa">
-                <button id="tracarRota" class="btn btn-dark">Traçar Rota</button>
+                <button id="tracarRota" class="btn btn-danger">Traçar Rota</button>
             </div>
 
         </div> <!-- Fechamento da div content -->

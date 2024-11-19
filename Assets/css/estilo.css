@@ -319,14 +319,16 @@ h1.texto {
 
 #mapa h4 {
     margin-top: -50px;
-    color: black;
+    color: #082946;
 }
 
 #map {
-    margin-top: 30px;
-    margin-left: 80px;
-    border: solid red;
+    margin-top: -40px;
+    margin-left: 95px;
+    /* border: solid red; */
     border-radius: 15px;
+    height: 485px;
+    width: 56%;
 }
 
 #mapa .content {
@@ -334,9 +336,19 @@ h1.texto {
     z-index: 2;
     text-align: center;
     margin-top: 100px;
-    width: 550px;
-    height: 550px;
+    width: 450px;
+    height: 450px;
 }
+
+#mapa .encontre h4 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-left: -130px;
+}
+
 
 #mapa::before {
 
@@ -348,26 +360,33 @@ h1.texto {
     background: rgba(0, 0, 0, 0.5);
     /* z-index: 1; */
 }
+
 .card-mapa {
-    position: absolute; /* O botão será posicionado acima do mapa */
-    top: 50%;  /* Centraliza verticalmente em relação ao mapa */
-    left: 50%;  /* Centraliza horizontalmente em relação ao mapa */
-    transform: translate(-50%, -50%); /* Ajusta para que o centro do botão fique no centro do mapa */
-    z-index: 10;  /* Garante que o botão fique acima do mapa */
+    position: absolute;
+    /* O botão será posicionado acima do mapa */
+    top: 50%;
+    /* Centraliza verticalmente em relação ao mapa */
+    left: 50%;
+    /* Centraliza horizontalmente em relação ao mapa */
+    transform: translate(-50%, -50%);
+    /* Ajusta para que o centro do botão fique no centro do mapa */
+    z-index: 10;
+    /* Garante que o botão fique acima do mapa */
+    margin-top: 30px;
 }
 
 #tracarRota {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #343a40;
+    padding: 2% 5px;
+    font-size: 14px;
+    background-color: red;
     color: #fff;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    border: solid red;
-    margin-top: 400px;
-    
+    /* border: solid red; */
+    margin-top: 405px;
+
 }
 
 #tracarRota:hover {
