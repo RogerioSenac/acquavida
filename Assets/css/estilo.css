@@ -565,6 +565,9 @@ h1.texto {
         display: inline-block;
     }
 
+   h1.texto{
+        font-size: 1.5rem;
+    }
     .navbar-nav {}
 
     .container-quem-somos .servico {
