@@ -19,7 +19,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
     <section class="container-video-apresenta">
         <h1>Prazer, somos a Acqua Vida!</h1>
         <article class="apresenta">
-            <video id="meuVideo" controls >
+            <video id="meuVideo" controls>
                 <source src="./Assets/videos/video_apresentacao.mp4" type="video/mp4">
                 Seu navegador não suporta o elemento de vídeo.
             </video>
@@ -62,12 +62,12 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
     <section id="mapa" class="d-flex flex-column align-items-center">
         <div class="content text-center">
             <h4>Encontre-nos no Mapa</h4>
-            <div id="map" style="height: 350px; width: 100%;"></div>
-            <div class="card bg-transparent">
-                <div class="card-mapa">
-                    <button id="tracarRota" class="btn btn-dark">Traçar Rota</button>
-                </div>
+            <div id="map" style="height: 356px; width: 53%;"></div>
+
+            <div class="card-mapa">
+                <button id="tracarRota" class="btn btn-dark">Traçar Rota</button>
             </div>
+
         </div> <!-- Fechamento da div content -->
     </section>
 
@@ -76,13 +76,13 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
     ?>
 
     <script>
-        document.getElementById('meuVideo').addEventListener('ended', function () {
+        document.getElementById('meuVideo').addEventListener('ended', function() {
             window.location.href = 'index.php';
         });
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const links = document.querySelectorAll('a[href^="#"]');
@@ -108,19 +108,19 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
         }).addTo(map);
 
         L.marker([-24.703404269966082, -48.00611380606861]).addTo(map)
-            .bindPopup('Academia Acqua Vida - Jacupiranga<br>Rua Januario Lisboa, 82 - Vila Elias, Jacupiranga - SP')
+            .bindPopup('Academia Acqua Vida')
             .openPopup();
 
-        document.getElementById('tracarRota').addEventListener('click', function () {
+        document.getElementById('tracarRota').addEventListener('click', function() {
             if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(function (position) {
+                navigator.geolocation.getCurrentPosition(function(position) {
                     var lat = position.coords.latitude;
                     var lon = position.coords.longitude;
                     var destination = "-24.703404269966082, -48.00611380606861";
                     var url =
                         `https://www.google.com/maps/dir/?api=1&origin=${lat},${lon}&destination=${destination}&travelmode=driving`;
                     window.open(url, '_blank');
-                }, function () {
+                }, function() {
                     alert(
                         "Não foi possível acessar a localização. Verifique suas permissões de geolocalização.");
                 });
