@@ -309,8 +309,7 @@ h1.texto {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-    /* margin-top: 200px; */
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     color: white;
@@ -824,39 +823,46 @@ h1.texto {
     
     /* Ajuste para o mapa */
     #map {
-        height: 150px;
-        margin-left: 63px;
         /* border: solid red; */
+        margin-left: 95px;
         border-radius: 0px 0px 15px 15px;
-        height: 560px;
-        width: 70%;
+        height: 442px;
+        width: 56%;
+        margin-top: -7px;
     }
 
-    #mapa .content {
+    /* #mapa .content {
         position: relative;
         z-index: 2;
         text-align: center;
-        margin-top: 100px;
+        
         width: 450px;
-        height: 400px;
-    }
+        height: 450px;
+        border: solid red;
+    } */
 
     #mapa .encontre h4 {
-        display: flex;
-        position: relative;
-        text-align: center;
-        align-items: center;
+        display: flexbox;
+        position: absolute;
+        text-align: left;
         justify-content: center;
-        margin-top: -8px;
-        margin-left: -10px;
+        margin-top: 53px;
+        margin-left: -130px;
         color: #082946;
         background-color: #F2EFE9;
-        width: 316px;
+        width: 250px;
         border-radius: 10px 10px 0px 0px;
+        font-size: medium;
+        font-weight: bold;
     }
 
     #tracarRota {
-        margin-top: 315px;
+        margin-top: 225px;
+        font-size: smaller;
+        /* border: solid green; */
+        padding: 0 3px;
+        /* height: 10%; */
+
     }
 
     /* Ajuste dos ícones de redes sociais e Rodapé */
