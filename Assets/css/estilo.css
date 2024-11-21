@@ -618,7 +618,7 @@ h1.texto {
 
 /* Responsividade para diferentes tamanhos de tela */
 
-/* Tablets em modo retrato */
+/* Tablets em modo retrato e paisagem */
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .container-fluid {
@@ -655,7 +655,7 @@ h1.texto {
         /* Ajusta a altura do container para telas menores */
     }
 
-/* video*/
+    /* video*/
     .apresenta {
         align-items: center;
         justify-items: center;
@@ -669,7 +669,7 @@ h1.texto {
         margin-top: 30px;
     }
 
-/* mapa*/
+    /* mapa*/
     #map {
         height: 150px;
         margin-left: 63px;
@@ -703,13 +703,11 @@ h1.texto {
     }
 
     #tracarRota {
-          margin-top: 315px; 
+        margin-top: 315px;
     }
-    
-/* rodape*/
-    /* Rodapé Principal */
 
-    .rodape{
+    /* Rodapé Principal */
+    .rodape {
 
         display: flex;
         flex-wrap: wrap;
@@ -717,16 +715,18 @@ h1.texto {
 
     .rodape .card-group {
         display: flex;
-        flex-wrap: wrap; /* Permite que os elementos quebrem a linha quando necessário */
+        flex-wrap: wrap;
+        /* Permite que os elementos quebrem a linha quando necessário */
         /* justify-content: space-between; Espaçamento entre os itens */
-        
+
     }
 
     /* Venha nos visitar alinhado à esquerda */
     .card-body-1 {
         flex: 1;
         /* text-align: left; */
-        max-width: 100%; /* Limita a largura */
+        max-width: 100%;
+        /* Limita a largura */
         /* border: solid red; */
     }
 
@@ -734,8 +734,9 @@ h1.texto {
     .card-body-3 {
         flex: 1;
         /* text-align: right; */
-        max-width: 100%; /* Limita a largura */
-     
+        max-width: 100%;
+        /* Limita a largura */
+
     }
 
     /* Siga-nos nas redes sociais centralizado abaixo */
@@ -744,8 +745,9 @@ h1.texto {
         justify-items: center;
         width: 100%;
         /* text-align: center; */
-        margin-top: 20px; /* Adiciona margem entre os cards */
-    /* border: solid green; */
+        margin-top: 20px;
+        /* Adiciona margem entre os cards */
+        /* border: solid green; */
     }
 
     .social-icons a {
@@ -760,6 +762,161 @@ h1.texto {
         /* Organiza o rodapé em coluna */
     }
 }
+
+/* Responsividade para Notebook */
+@media (min-width: 1152px){
+
+    /* Ajustes gerais para notebooks */
+    .container-fluid {
+        padding: 20px;
+        /* Ajuste do padding do contêiner */
+    }
+
+    /* Ajuste no cabeçalho */
+    h1.texto {
+        font-size: 2rem;
+        /* Ajusta o tamanho da fonte do título */
+    }
+
+    /* Ajustes gerais de imagem */
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        /* Garante que as imagens ocupem 100% da largura */
+    }
+
+    /* Ajuste de fonte no menu de navegação */
+    .navbar-nav {
+        font-size: 1.4rem;
+        /* Aumenta o tamanho da fonte para o menu de navegação */
+    }
+
+    /* Container de vídeo de apresentação */
+     .container-video-apresenta {
+        height: auto;
+        /* Ajusta a altura do container para telas menores */
+    }
+
+    .apresenta {
+        align-items: center;
+        justify-items: center;
+        margin: 0 auto;
+    }
+
+    #meuVideo {
+        justify-content: left;
+        width: 450px;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    /* Ajuste de botões */
+    .btn.btn-secondary {
+        width: 25%;
+        /* Ajusta o botão para 25% da largura */
+    }
+
+    /* Ajustes no layout da seção "Quem Somos" */
+    .container-quem-somos .servico {
+        width: 60%;
+        /* Torna os serviços mais estreitos */
+    }
+    
+    /* Ajuste para o mapa */
+    #map {
+        height: 150px;
+        margin-left: 63px;
+        /* border: solid red; */
+        border-radius: 0px 0px 15px 15px;
+        height: 560px;
+        width: 70%;
+    }
+
+    #mapa .content {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        margin-top: 100px;
+        width: 450px;
+        height: 400px;
+    }
+
+    #mapa .encontre h4 {
+        display: flex;
+        position: relative;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: -8px;
+        margin-left: -10px;
+        color: #082946;
+        background-color: #F2EFE9;
+        width: 316px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    #tracarRota {
+        margin-top: 315px;
+    }
+
+    /* Ajuste dos ícones de redes sociais e Rodapé */
+ 
+    .rodape {
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rodape .card-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Venha nos visitar alinhado à esquerda */
+    .card-body-1 {
+        flex: 1;
+        /* text-align: left; */
+        max-width: 100%;
+        /* Limita a largura */
+        /* border: solid red; */
+    }
+
+    /* Horários da Academia alinhado à direita */
+    .card-body-3 {
+        flex: 1;
+        /* text-align: right; */
+        max-width: 100%;
+        /* Limita a largura */
+
+    }
+
+    /* Siga-nos nas redes sociais centralizado abaixo */
+    .card-body-2 {
+        justify-content: space-between;
+        justify-items: center;
+        width: 100%;
+        /* text-align: center; */
+        margin-top: 20px;
+        /* Adiciona margem entre os cards */
+        /* border: solid green; */
+    }
+
+    .social-icons a {
+        /* margin: 0 10px; */
+        color: white;
+        text-decoration: none;
+        /* border: solid red; */
+    }
+
+    .rodape-DevRGT .flex {
+        flex-direction: column;
+        /* Organiza o rodapé em coluna */
+    }
+
+
+}
+
+
 
 /* Smartphones em modo retrato */
 @media (max-width: 480px) {
