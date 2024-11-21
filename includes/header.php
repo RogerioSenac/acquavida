@@ -14,7 +14,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- CSS Personalizado -->
-    <link rel="stylesheet" type='text/css' href="../Assets/css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../Assets/css/estilo.css">
 </head>
 
 <body>
@@ -27,7 +27,10 @@
     </div>
     <h1 class="texto">Somos uma equipe promovendo Saúde!</h1>
     <nav class="navbar navbar-expand-lg">
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" data-bs-theme="light">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="../index.php">Início</a>
@@ -36,12 +39,10 @@
                     <a class="nav-link" href="./pages/quem_somos.php">Sobre Nós</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.facebook.com/AcademiaAcquaVida/photos_by?locale=pt_BR"
-                        target="_blank">Fotos</a>
+                    <a class="nav-link" href="https://www.facebook.com/AcademiaAcquaVida/photos_by?locale=pt_BR" target="_blank">Fotos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.facebook.com/AcademiaAcquaVida/videos?locale=pt_BR"
-                        target="_blank">Videos</a>
+                    <a class="nav-link" href="https://www.facebook.com/AcademiaAcquaVida/videos?locale=pt_BR" target="_blank">Videos</a>
                 </li>
             </ul>
         </div>
@@ -49,6 +50,22 @@
 
     <!-- Scripts Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const navbar = document.querySelector('.navbar');
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+
+        // Exibe o menu quando o mouse entra na área do menu
+        navbar.addEventListener('mouseenter', function() {
+            navbarCollapse.style.display = 'block';
+        });
+
+        // Esconde o menu quando o mouse sai da área do menu
+        navbar.addEventListener('mouseleave', function() {
+            navbarCollapse.style.display = 'none';
+        });
+    </script>
+
 </body>
 
 </html>

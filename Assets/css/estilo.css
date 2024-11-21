@@ -632,9 +632,7 @@ h1.texto {
         font-size: 1.5rem;
     }
 
-    .navbar-nav {}
-
-    .container-quem-somos .servico {
+    .container-quem-somos.servico {
         width: 80%;
         /* Torna a largura dos serviços mais estreita */
     }
@@ -763,7 +761,7 @@ h1.texto {
 }
 
 /* Responsividade para Notebook */
-@media (min-width: 1152px){
+@media (min-width: 1152px) {
 
     /* Ajustes gerais para notebooks */
     .container-fluid {
@@ -791,7 +789,7 @@ h1.texto {
     }
 
     /* Container de vídeo de apresentação */
-     .container-video-apresenta {
+    .container-video-apresenta {
         height: auto;
         /* Ajusta a altura do container para telas menores */
     }
@@ -820,10 +818,9 @@ h1.texto {
         width: 60%;
         /* Torna os serviços mais estreitos */
     }
-    
+
     /* Ajuste para o mapa */
     #map {
-        /* border: solid red; */
         margin-left: 95px;
         border-radius: 0px 0px 15px 15px;
         height: 442px;
@@ -831,17 +828,7 @@ h1.texto {
         margin-top: -7px;
     }
 
-    /* #mapa .content {
-        position: relative;
-        z-index: 2;
-        text-align: center;
-        
-        width: 450px;
-        height: 450px;
-        border: solid red;
-    } */
-
-    #mapa .encontre h4 {
+    .encontre h4 {
         display: flexbox;
         position: absolute;
         text-align: left;
@@ -859,14 +846,11 @@ h1.texto {
     #tracarRota {
         margin-top: 225px;
         font-size: smaller;
-        /* border: solid green; */
         padding: 0 3px;
-        /* height: 10%; */
-
     }
 
     /* Ajuste dos ícones de redes sociais e Rodapé */
- 
+
     .rodape {
 
         display: flex;
@@ -923,26 +907,103 @@ h1.texto {
 }
 
 
+/* Responsividade para dispositivos móveis */
+@media screen and (max-width: 767px) {
 
-/* Smartphones em modo retrato */
-@media (max-width: 480px) {
-    .navbar-nav {
-        font-size: 1.2rem;
-        /* Ajusta o tamanho da fonte para dispositivos pequenos */
-        padding: 10px;
-        /* Ajusta o espaçamento */
+    /* area do cabeçalho*/
+    h1.texto {
+        font-size: medium;
     }
 
-    .container-video-apresenta {
-        padding: 10px;
+    /* Esconde o menu de navegação (navbar-collapse) por padrão */
+    .navbar-collapse {
+        display: none;
+        /* Menu oculto por padrão */
+    }
+
+    /* Exibe o menu quando o mouse passar sobre o botão de navegação */
+    .navbar:hover .navbar-collapse {
+        display: block;
+        /* Torna o menu visível ao passar o mouse sobre o menu */
+    }
+
+    /* Exibe o menu ao passar o mouse diretamente sobre o menu */
+    .navbar-collapse:hover {
+        display: block;
+        /* O menu permanece visível enquanto o mouse estiver sobre ele */
+    }
+
+    /* Ajusta o botão de hambúrguer */
+    .navbar-toggler {
+        border: none;
+        /* Remove a borda do botão */
+    }
+
+    /* Estiliza o ícone do hambúrguer */
+    .navbar-toggler-icon {
+        background-color: #fff;
+        /* Torna o ícone visível */
+    }
+
+    /* Organiza os itens de navegação em coluna */
+    .navbar-nav {
+        flex-direction: column;
+        /* Coloca os itens em coluna */
+        text-align: center;
+        /* Centraliza os itens */
+        padding: 10px 0;
+        /* Adiciona padding entre os itens */
+    }
+
+    /* Ajusta os itens de navegação */
+    .nav-item {
+        margin-bottom: 10px;
+        /* Espaço entre os itens */
+    }
+
+    /* Ajuste do link */
+    .nav-link {
+        font-size: 18px;
+        /* Aumenta o tamanho da fonte */
+        padding: 10px 15px;
+        /* Adiciona padding para melhorar a área clicável */
+    }
+
+    /* area do video*/
+    .container-video-apresenta h1 {
+        font-size: medium;
         /* Ajusta o padding para video */
     }
 
-    .apresenta {
-        width: 100%;
-        margin-left: 0;
-        /* Ajusta para centralizar o vídeo */
+    .container-video-apresenta h4 {
+        font-size: medium;
+        /* Ajusta o padding para video */
     }
+
+
+    .container-video-apresenta {
+        height: auto;
+        width: auto;
+        /* Ajusta a altura do container para telas menores */
+    }
+
+    .apresenta {
+        
+        /* align-items: center;
+        justify-items: center; */
+        background-image: url(../imagem/tela-video-transp.png);
+        margin: 0;
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        border: solid red;
+    }
+
+    #meuVideo {
+        width: 50%;
+    }
+
+
 
     .btn.btn-secondary {
         width: 100%;
