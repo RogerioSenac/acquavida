@@ -317,18 +317,13 @@ h1.texto {
     position: relative;
 }
 
-#mapa h4 {
-    margin-top: -50px;
-    color: #082946;
-}
-
 #map {
-    margin-top: -40px;
-    margin-left: 95px;
+    margin-top: -107px;
+    margin-left: 45px;
     /* border: solid red; */
-    border-radius: 15px;
-    height: 485px;
-    width: 56%;
+    border-radius: 0px 0px 15px 15px;
+    height: 625px;
+    width: 78%;
 }
 
 #mapa .content {
@@ -342,13 +337,17 @@ h1.texto {
 
 #mapa .encontre h4 {
     display: flex;
-    position: absolute;
-    align-items: center;
+    position: relative;
     text-align: center;
-    align-content: center;
-    margin-left: -130px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    margin-left: -10px;
+    color: #082946;
+    background-color: #F2EFE9;
+    width: 350px;
+    border-radius: 10px 10px 0px 0px;
 }
-
 
 #mapa::before {
 
@@ -372,7 +371,7 @@ h1.texto {
     /* Ajusta para que o centro do botão fique no centro do mapa */
     z-index: 10;
     /* Garante que o botão fique acima do mapa */
-    margin-top: 30px;
+    margin-top: 115px;
 }
 
 #tracarRota {
@@ -416,9 +415,9 @@ h1.texto {
 .card-body-1 {
     position: relative;
     padding-right: 20px;
-    /* Padding de 10px */
     text-align: left;
     /* Alinhamento à esquerda */
+    /* border: solid yellow; */
 }
 
 .card-body-1 h3 {
@@ -428,20 +427,27 @@ h1.texto {
 
 .card-body-1 li {
     text-align: left;
-    color: white
+    color: white;
 }
 
 .card-body-2 {
     padding: 0px;
-    /* Padding de 10px */
     text-align: left;
     /* Alinhamento à esquerda */
+    /* border:  solid yellow; */
 }
 
 .card-body-2 h3 {
     text-align: center;
     margin-top: -45px;
     margin-bottom: 20px;
+}
+
+.card-body-3 {
+    padding: 0px;
+    text-align: left;
+    /* Alinhamento à esquerda */
+    /* border:  solid yellow; */
 }
 
 .card-body-3 h3 {
@@ -464,8 +470,9 @@ h1.texto {
 
 .card-group {
     display: flex;
+    flex-direction: column;
     /* Espaço entre os cards */
-    justify-content: ;
+    justify-content: space-evenly;
     /* Cada card ocupa a mesma largura */
     flex: 1;
     backdrop-filter: blur(10px);
@@ -475,6 +482,7 @@ h1.texto {
     margin: 10px;
     /* Margem horizontal para espaçamento */
     margin-left: 20px;
+    /* border: solid red; */
 }
 
 .card-group:hover {
@@ -647,6 +655,7 @@ h1.texto {
         /* Ajusta a altura do container para telas menores */
     }
 
+/* video*/
     .apresenta {
         align-items: center;
         justify-items: center;
@@ -660,35 +669,90 @@ h1.texto {
         margin-top: 30px;
     }
 
+/* mapa*/
+    #map {
+        height: 150px;
+        margin-left: 63px;
+        /* border: solid red; */
+        border-radius: 0px 0px 15px 15px;
+        height: 560px;
+        width: 70%;
+    }
+
     #mapa .content {
         position: relative;
         z-index: 2;
         text-align: center;
-        margin-top: 10px;
-        width: 350px;
-        height: 350px;
+        margin-top: 100px;
+        width: 450px;
+        height: 400px;
     }
 
-    #map {
-        height: 150px;
+    #mapa .encontre h4 {
+        display: flex;
+        position: relative;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: -8px;
+        margin-left: -10px;
+        color: #082946;
+        background-color: #F2EFE9;
+        width: 316px;
+        border-radius: 10px 10px 0px 0px;
     }
 
-    .card-group {
-        flex-direction: column;
-        /* Organiza os cards em coluna */
-        margin-left: 0;
+    #tracarRota {
+          margin-top: 315px; 
+    }
+    
+/* rodape*/
+    /* Rodapé Principal */
+
+    .rodape{
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rodape .card-group {
+        display: flex;
+        flex-wrap: wrap; /* Permite que os elementos quebrem a linha quando necessário */
+        /* justify-content: space-between; Espaçamento entre os itens */
+        
+    }
+
+    /* Venha nos visitar alinhado à esquerda */
+    .card-body-1 {
+        flex: 1;
+        /* text-align: left; */
+        max-width: 100%; /* Limita a largura */
+        /* border: solid red; */
+    }
+
+    /* Horários da Academia alinhado à direita */
+    .card-body-3 {
+        flex: 1;
+        /* text-align: right; */
+        max-width: 100%; /* Limita a largura */
+     
+    }
+
+    /* Siga-nos nas redes sociais centralizado abaixo */
+    .card-body-2 {
+        justify-content: space-between;
+        justify-items: center;
+        width: 100%;
+        /* text-align: center; */
+        margin-top: 20px; /* Adiciona margem entre os cards */
+    /* border: solid green; */
     }
 
     .social-icons a {
-        font-size: 1rem;
-        /* Reduz o tamanho dos ícones para se ajustar à tela */
-    }
-
-    .btn.btn-secondary {
-        width: 80%;
-        /* Ajusta a largura do botão */
-        padding: 10px;
-        /* Ajusta o padding */
+        /* margin: 0 10px; */
+        color: white;
+        text-decoration: none;
+        /* border: solid red; */
     }
 
     .rodape-DevRGT .flex {

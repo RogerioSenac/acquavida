@@ -59,7 +59,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
         </article>
     </section>
 
-    <section id="mapa" class="d-flex flex-column align-items-center">
+    <section id="mapa" class="d-flex flex-column">
         <div class="encontre">
             <h4>Click em Traçar Rota e <br>encontre-nos no Mapa</h4>
         </div>
