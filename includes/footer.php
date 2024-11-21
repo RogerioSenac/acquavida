@@ -54,7 +54,7 @@
                     <a href="https://www.youtube.com/@developers_rgt" target="_blank"><button><i class="fa-brands fa-youtube"></i></button></a>
                     <a href="https://github.com/DevelopersRGT" target="_blank"><button><i class="fa-brands fa-github"></i></button></a>
                 </div>
-            <!-- </div> -->
+            </div> -->
             <div class="line-footer borda">
                 <p class="designby">
                     <span>Design By - Rogerio Pupo Toledo</span>
