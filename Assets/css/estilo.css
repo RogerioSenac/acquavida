@@ -236,7 +236,7 @@ h1.texto {
     font-weight: bold;
 }
 
-/* container serviço*/
+/* container serviço */
 .container-servico {
     background-color: #082946;
     padding: 80px;
@@ -249,14 +249,11 @@ h1.texto {
     font-size: 1.2em;
     color: white;
     text-align: center;
-    /* Alinha o texto pelo modo Justificado */
     line-height: 1.6;
-    /* Opicional: melhora a legibilidade */
 }
 
 .alinhar-centro {
     display: block;
-    /* Torna o span um bloco, para que o text-align funcione */
     text-align: center;
     color: #D43F38;
     font-weight: bold;
@@ -265,42 +262,34 @@ h1.texto {
 .container-servico .botoes-servicos {
     padding: 60px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que os itens quebrem para a linha seguinte */
+    justify-content: center;
+    /* Centraliza os itens */
 }
 
+/* Estilo para os botões */
 .col-4 img {
     width: 50px;
-    /* Largura da imagem */
     height: 50px;
-    /* Altura da imagem */
 }
 
 .col-4 a {
     display: inline-block;
-    /* Para que o padding funcione */
     text-decoration: none;
-    /* Remove o sublinhado */
     background-color: #008eb9;
-    /* Cor de fundo do botão */
     color: white;
-    /* Cor do texto */
     padding: 10px 20px;
-    /* Espaçamento interno */
-    margin: 5px auto;
-    /* Margem para separar os botões */
+    margin: 5px;
     border-radius: 10px;
-    /* Bordas arredondadas */
     transition: background-color 0.3s;
-    /* Transição suave para a cor de fundo */
 }
 
 .col-4 a:hover {
     background-color: white;
-    /* Cor de fundo no hover */
     color: black;
-    /* Cor do texto no hover */
 }
-
-
 
 /************* Seção: Mapa *******************/
 #mapa {
@@ -322,7 +311,7 @@ h1.texto {
     /* border: solid red; */
     border-radius: 0px 0px 15px 15px;
     height: 625px;
-    width: 78%;
+    width: 80%;
 }
 
 #mapa .content {
@@ -336,20 +325,18 @@ h1.texto {
 
 #mapa .encontre h4 {
     display: flex;
-    position: relative;
+    position: absolute;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: -10px;
-    margin-left: -10px;
+    /* justify-content: center; */
+    margin-top: 53px;
+    margin-left: -130px;
     color: #082946;
     background-color: #F2EFE9;
-    width: 350px;
+    width: 250px;
     border-radius: 10px 10px 0px 0px;
 }
 
 #mapa::before {
-
     position: absolute;
     top: 5px;
     left: 0;
@@ -413,10 +400,10 @@ h1.texto {
 
 .card-body-1 {
     position: relative;
-    padding-right: 20px;
     text-align: left;
-    /* Alinhamento à esquerda */
-    /* border: solid yellow; */
+    font-size: 15px;
+    /* border: solid red; */
+    width: 300px;
 }
 
 .card-body-1 h3 {
@@ -432,21 +419,18 @@ h1.texto {
 .card-body-2 {
     padding: 0px;
     text-align: left;
-    /* Alinhamento à esquerda */
-    /* border:  solid yellow; */
 }
 
 .card-body-2 h3 {
+    padding-top: 10px;
     text-align: center;
     margin-top: -45px;
     margin-bottom: 20px;
+    font-size: 26px;
 }
 
 .card-body-3 {
-    padding: 0px;
     text-align: left;
-    /* Alinhamento à esquerda */
-    /* border:  solid yellow; */
 }
 
 .card-body-3 h3 {
@@ -456,7 +440,7 @@ h1.texto {
 
 .servico-texto-realce {
     text-align: center;
-    color: black;
+    color: rgb(145, 43, 2);
     font-weight: 500 bold;
     font-style: italic;
     font-family: cursive;
@@ -852,7 +836,6 @@ h1.texto {
     /* Ajuste dos ícones de redes sociais e Rodapé */
 
     .rodape {
-
         display: flex;
         flex-wrap: wrap;
     }
@@ -902,15 +885,13 @@ h1.texto {
         flex-direction: column;
         /* Organiza o rodapé em coluna */
     }
-
-
 }
 
 
 /* Responsividade para dispositivos móveis */
-@media screen and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
-    /* area do cabeçalho*/
+    /* área do cabeçalho */
     h1.texto {
         font-size: medium;
     }
@@ -969,79 +950,187 @@ h1.texto {
         /* Adiciona padding para melhorar a área clicável */
     }
 
-    /* area do video*/
-    .container-video-apresenta h1 {
-        font-size: medium;
-        /* Ajusta o padding para video */
-    }
-
+    /* área do vídeo */
+    .container-video-apresenta h1,
     .container-video-apresenta h4 {
         font-size: medium;
-        /* Ajusta o padding para video */
+        /* Ajusta o tamanho da fonte para h1 e h4 */
     }
 
-
     .container-video-apresenta {
+        display: contents;
+        justify-content: center;
+        align-items: center;
         height: auto;
-        width: auto;
         /* Ajusta a altura do container para telas menores */
+        width: 100%;
+        /* Ajusta a largura */
+        padding: 10px;
+        /* Adiciona um pouco de espaçamento interno */
+        box-sizing: border-box;
+        /* Para garantir que padding não afete a largura total */
+        background-color: rgb(0, 0, 0);
+        border: solid red;
     }
 
     .apresenta {
-        
-        /* align-items: center;
-        justify-items: center; */
         background-image: url(../imagem/tela-video-transp.png);
+        background-size: contain;
+        /* Faz com que a imagem de fundo cubra toda a área */
+        background-position: center;
+        /* Centraliza a imagem de fundo */
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* Faz o contêiner ocupar toda a largura */
+        height: 90%;
+        /* Faz o contêiner ocupar toda a altura disponível */
         margin: 0;
-        width: auto;
-        height: auto;
-        margin-left: 0;
-        border: solid red;
     }
 
     #meuVideo {
         width: 50%;
+        /* Ajusta a largura do vídeo */
+        height: 10%;
+        /* Mantém a proporção do vídeo */
+        object-fit: cover;
+        /*Faz o vídeo preencher o contêiner sem distorção */
+        margin-top: 3px;
     }
 
+    /* Ajuste dos itens de área serviços  */
 
-
-    .btn.btn-secondary {
-        width: 100%;
-        /* Faz o botão ocupar toda a largura */
+    .container-servico .servico-texto {
+        font-size: medium;
+        text-align: center;
+        width: 250px;
+        align-items: center;
+        margin-left: -50px;
     }
 
-    .container-servico {
-        padding: 40px 20px;
-        /* Ajusta o padding para o serviço */
+    .container-servico .botoes-servicos {
+        padding: 5px;
+        justify-content: space-between;
+        /* Centraliza os itens */
     }
 
+    .col-4 {
+        width: 50%;
+        /* Tamanho de cada botão em uma linha (dois botões por linha) */
+        margin: 5px;
+        /* Espaço entre os botões */
+    }
+
+    /* Opcional: Ajustar o tamanho da imagem dos botões para se ajustarem bem nas telas menores */
+    .col-4 img {
+        width: 60px;
+        height: 20px;
+    }
+
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
+        font-size: small;
     }
 
-    .social-icons {
-        justify-content: space-around;
-        /* Organiza os ícones de redes sociais */
+    .btn.btn-secondary {
+        font-size: 15px;
+        width: 50%;
+
     }
 
+    /* Ajuste dos itens de área do mapa */
+    #mapa {
+        height: 100%;
+
+    }
+
+    #map {
+        margin-left: 115px;
+        border-radius: 0px 0px 15px 15px;
+        height: 85%;
+        width: 47%;
+        margin-top: 15px;
+    }
+
+    .card-mapa {
+        margin-top: -3px;
+    }
+
+    #mapa .encontre h4 {
+        display: flex;
+        position: absolute;
+        margin-top: 85px;
+        margin-left: -110px;
+        color: #082946;
+        background-color: #F2EFE9;
+        width: 210px;
+        border-radius: 10px 10px 0px 0px;
+        font-size: small;
+        font-weight: bold;
+        /* border: solid green; */
+    }
+
+    #tracarRota {
+        display: flex;
+        font-size: smaller;
+        padding: 0 3px;
+        /* border: solid green; */
+        margin-top: 380px;
+    }
+
+    /* Ajuste dos itens de área do footer */
     .rodape {
-        height: auto;
-        /* Ajusta a altura do rodapé */
-        padding: 40px 20px;
-        /* Ajusta o padding do rodapé */
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    .rodape-DevRGT .flex {
-        flex-direction: column;
-        /* Organiza o rodapé em coluna */
+    .rodape .card-group {
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    .card-group {
-        flex-direction: column;
-        /* Coloca os cards em coluna */
+    /* Venha nos visitar alinhado à esquerda */
+    .card-body-1 {
+        flex: 1;
+        /* text-align: left; */
+        max-width: 100%;
+        /* Limita a largura */
+        /* border: solid red; */
     }
+
+    /* Horários da Academia alinhado à direita */
+    .card-body-3 {
+        flex: 1;
+        /* text-align: right; */
+        max-width: 100%;
+        /* Limita a largura */
+
+    }
+
+    /* Siga-nos nas redes sociais centralizado abaixo */
+    .card-body-2 {
+        justify-content: space-between;
+        justify-items: center;
+        width: 100%;
+        /* text-align: center; */
+        margin-top: 20px;
+        /* Adiciona margem entre os cards */
+        /* border: solid green; */
+    }
+
+    .social-icons a {
+        /* margin: 0 10px; */
+        color: white;
+        text-decoration: none;
+        /* border: solid red; */
+        width: 50px;
+    }
+
 }
+
 
 /* Smart TVs */
 @media (max-width: 1920px) {
