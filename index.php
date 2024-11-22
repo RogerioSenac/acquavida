@@ -38,7 +38,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
                     <a href="./pages/musculacao.php">Musculação</a>
                 </div>
                 <div class="col-4">
-                    <a href="./pages/hidro.php">Hidroterapia</a>
+                    <a href="./pages/hidroterapia.php">Hidroterapia</a>
                 </div>
                 <div class="col-4">
                     <a href="./pages/hidro.php">Hidroginástica</a>
