@@ -6,7 +6,7 @@
             <div class="card-body-1">
                 <h3>Venha nos visitar.</h3>
                 <ul>
-                    <li><i class="fas fa-map-marker-alt"></i> Rua Januário Lisboa, 82, Vila Elias, Jacupiranga, SP</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Rua Januário Lisboa, 82 <br> Vila Elias, Jacupiranga, SP</li>
                     <li><i class="fas fa-envelope"></i> acquavidacademia@gmail.com</li>
                 </ul>
             </div>

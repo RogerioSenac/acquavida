@@ -35,24 +35,31 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
             </p>
             <div class="row botoes-servicos">
                 <div class="col-4">
+                    <img src="./Assets/imagem/musculacao.png" class="icone" alt="musculação">
                     <a href="./pages/musculacao.php">Musculação</a>
                 </div>
                 <div class="col-4">
+                    <img src="./Assets/imagem/hidroterapia.jpg" class="icone" alt="hidroterapia">
                     <a href="./pages/hidroterapia.php">Hidroterapia</a>
                 </div>
                 <div class="col-4">
+                    <img src="./Assets/imagem/hidro.jpg" class="icone" alt="hidroginástica">
                     <a href="./pages/hidro.php">Hidroginástica</a>
                 </div>
                 <div class="col-4">
-                    <a href="./pages/baby.php">Natação Baby</a>
+                    <img src="./Assets/imagem/natacao_junior.png" class="icone" alt="nataçao_junior">
+                    <a href="./pages/baby.php">Natação Infantil</a>
                 </div>
                 <div class="col-4">
+                    <img src="./Assets/imagem/natacao.png" class="icone" alt="natação">
                     <a href="./pages/natacao.php">Natação Geral</a>
                 </div>
                 <div class="col-4">
+                    <img src="./Assets/imagem/avaliacao.png" class="icone" alt="avaliação">
                     <a href="./pages/avaliacao.php">Avaliação Física</a>
                 </div>
             </div>
+
             <p class="servico-texto">
                 Venha nos visitar e fazer uma aula experimental!
             </p>
