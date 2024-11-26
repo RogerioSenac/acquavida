@@ -637,6 +637,7 @@ h1.texto {
 
     .container-fluid {
         text-align: center;
+        border: solid 3px red
     }
 
     .navbar-brand .img-fluid {
@@ -652,22 +653,26 @@ h1.texto {
         /* Torna a largura dos serviços mais estreita */
     }
 
-    .container-servico {
-        padding: 40px 20px;
-        /* Ajusta o padding para telas menores */
-    }
-
     .navbar-nav {
         flex-direction: column;
         /* Organiza os links em coluna */
     }
 
+    .navbar{
+        /* background-color: white; */
+    }
+
+    .navbar-toggler{
+        color: black;
+    }
+
+    
+    /* video*/
     .container-video-apresenta {
         height: auto;
         /* Ajusta a altura do container para telas menores */
     }
 
-    /* video*/
     .apresenta {
         align-items: center;
         justify-items: center;
@@ -680,6 +685,16 @@ h1.texto {
         height: 300px;
         margin-top: 30px;
     }
+    
+    /* Area Conatiner Serviços*/
+
+    .container-servico {
+        padding: 40px 20px;
+        /* Ajusta o padding para telas menores */
+        border: solid red;
+    }
+
+    
 
     /* mapa*/
     #map {
@@ -919,7 +934,7 @@ h1.texto {
 }
 
 
-/* Responsividade para dispositivos móveis */
+/* Responsividade para dispositivos Smartphone */
 @media (min-width: 320px) and (max-width: 767px) {
 
     /* área do cabeçalho */
@@ -1053,9 +1068,10 @@ h1.texto {
     }
 
     .col-4 {
-        width: 100%;
+        
+        width: 50%;
         /* Tamanho de cada botão em uma linha (dois botões por linha) */
-        /* margin: px; */
+        margin: 10px;
         /* Espaço entre os botões */
     }
 
