@@ -1066,7 +1066,6 @@ h1.texto {
         align-items: center;
         align-content: center;
         justify-content: center;
-        border: solid maroon;
         font-size: 1.5rem;   
     }
 
@@ -1091,37 +1090,50 @@ h1.texto {
     }
 
     #map {
-        margin-left: 115px;
+        margin-left: 100px;
         border-radius: 0px 0px 15px 15px;
-        height: 85%;
-        width: 47%;
-        margin-top: 15px;
-    }
-
-    .card-mapa {
-        margin-top: -3px;
+        height: 90%;
+        width: 54%;
+        margin-top: -15px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
     }
 
     #mapa .encontre h4 {
         display: flex;
         position: absolute;
-        margin-top: 85px;
-        margin-left: -110px;
+        /* margin-top: 55px; */
+        align-items: center;
+        justify-content: center;
         color: #082946;
         background-color: #F2EFE9;
-        width: 210px;
+        width: 250px;
         border-radius: 10px 10px 0px 0px;
         font-size: small;
-        font-weight: bold;
-        /* border: solid green; */
+        font-weight: bold; 
+    }
+
+    .card-mapa {
+        margin: 0;
+        padding: 0;
+        margin-left: -5px;
+        margin-top: 190px;
+        width: 245px;
+        height: 45px;
+        border-radius: 0px 0px 10px 10px;
     }
 
     #tracarRota {
         display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
         font-size: smaller;
-        padding: 0 3px;
-        /* border: solid green; */
-        margin-top: 380px;
+        width: 245px;
+        height: 40px;
     }
 
     /* Ajuste dos itens de área do footer */
@@ -1132,25 +1144,23 @@ h1.texto {
 
     .rodape .card-group {
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap;  */
     }
 
     /* Venha nos visitar alinhado à esquerda */
     .card-body-1 {
-        flex: 1;
-        /* text-align: left; */
+        /* flex: 1; */
+        text-align: center;
         max-width: 100%;
         /* Limita a largura */
-        /* border: solid red; */
     }
 
     /* Horários da Academia alinhado à direita */
     .card-body-3 {
-        flex: 1;
-        /* text-align: right; */
+        /* flex: 1; */
+        text-align: center;
         max-width: 100%;
         /* Limita a largura */
-
     }
 
     /* Siga-nos nas redes sociais centralizado abaixo */
