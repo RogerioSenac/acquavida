@@ -71,23 +71,20 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
             <h4>Click em Traçar Rota e <br>encontre-nos no Mapa</h4>
         </div>
         <div class="content text-center">
-            <div id="map">
+            <div id="map"></div>
+        </div> 
 
-            </div>
-
-            <div class="card-mapa">
-                <button id="tracarRota" class="btn btn-danger">Traçar Rota</button>
-            </div>
-
-        </div> <!-- Fechamento da div content -->
+        <div class="card-mapa">
+        </div>
+        <button id="tracarRota" class="btn btn-danger">Traçar Rota</button>
     </section>
 
     <?php
     include("./includes/footer.php")
-    ?>
+        ?>
 
     <script>
-        document.getElementById('meuVideo').addEventListener('ended', function() {
+        document.getElementById('meuVideo').addEventListener('ended', function () {
             window.location.href = 'index.php';
         });
     </script>
@@ -122,16 +119,16 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
             .bindPopup('Academia Acqua Vida')
             .openPopup();
 
-        document.getElementById('tracarRota').addEventListener('click', function() {
+        document.getElementById('tracarRota').addEventListener('click', function () {
             if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(function(position) {
+                navigator.geolocation.getCurrentPosition(function (position) {
                     var lat = position.coords.latitude;
                     var lon = position.coords.longitude;
                     var destination = "-24.703404269966082, -48.00611380606861";
                     var url =
                         `https://www.google.com/maps/dir/?api=1&origin=${lat},${lon}&destination=${destination}&travelmode=driving`;
                     window.open(url, '_blank');
-                }, function() {
+                }, function () {
                     alert(
                         "Não foi possível acessar a localização. Verifique suas permissões de geolocalização.");
                 });

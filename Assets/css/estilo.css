@@ -307,8 +307,6 @@ h1.texto {
     /* border: solid blue; */
 }
 
-
-
 /* formataçao span textos paginas */
 .alinhar-centro {
     display: block;
@@ -329,6 +327,7 @@ h1.texto {
     justify-content: center;
     color: white;
     position: relative;
+    border: solid red;
 }
 
 #mapa::before {
@@ -342,12 +341,18 @@ h1.texto {
 }
 
 #mapa .content {
+    display: flex;
     position: relative;
     z-index: 2;
     text-align: center;
-    margin-top: 100px;
-    width: 450px;
-    height: 450px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    margin-left: -10px;
+    width: 390px;
+    height: 600px;
+    /* border: solid green; */
+
 }
 
 #mapa .encontre h4 {
@@ -355,21 +360,20 @@ h1.texto {
     position: absolute;
     text-align: center;
     /* justify-content: center; */
-    margin-top: -38px;
-    margin-left: -180px;
+    margin-top: -70px;
+    margin-left: -200px;
     color: #082946;
     background-color: #F2EFE9;
-    width: 350px;
+    width: 390px;
     border-radius: 10px 10px 0px 0px;
 }
 
 #map {
-    margin-top: -107px;
-    margin-left: 45px;
-    /* border: solid red; */
+    display: flex;
     border-radius: 0px 0px 15px 15px;
-    height: 625px;
-    width: 80%;
+    height: 825px;
+    width: 680px;
+    border: solid rgb(42, 5, 204);
 }
 
 .card-mapa {
