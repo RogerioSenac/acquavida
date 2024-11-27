@@ -70,7 +70,6 @@ h1.texto {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
     /* Suaviza a transição */
-
     align-items: center;
 }
 
@@ -241,7 +240,6 @@ h1.texto {
     background-color: #082946;
     padding: 80px;
     text-align: center;
-    /* border: solid red; */
 }
 
 .container-servico .servico-texto {
@@ -251,18 +249,23 @@ h1.texto {
     color: white;
     text-align: center;
     line-height: 1.6;
-    /* border: solid green; */
 }
 
 .container-servico .botoes-servicos {
+    display: flex;
     padding: 30px;
     text-align: center;
-    display: flex;
     flex-wrap: wrap;
     /* Permite que os itens quebrem para a linha seguinte */
-    justify-content: space-between;
+    justify-content: center;
     /* Centraliza os itens */
-    /* border: solid yellow; */
+}
+
+.col-4 {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
 }
 
 .botoes-servicos .col-4 a {
@@ -284,6 +287,8 @@ h1.texto {
     margin: 5px;
     border-radius: 10px;
     transition: background-color 0.3s;
+    width: 350px;
+    justify-content: center;
 }
 
 .col-4 a:hover {
@@ -324,16 +329,16 @@ h1.texto {
     justify-content: center;
     color: white;
     position: relative;
-    border: solid red;
 }
 
-#map {
-    margin-top: -107px;
-    margin-left: 45px;
-    /* border: solid red; */
-    border-radius: 0px 0px 15px 15px;
-    height: 625px;
-    width: 80%;
+#mapa::before {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* z-index: 1; */
 }
 
 #mapa .content {
@@ -350,49 +355,53 @@ h1.texto {
     position: absolute;
     text-align: center;
     /* justify-content: center; */
-    margin-top: 53px;
-    margin-left: -130px;
+    margin-top: -38px;
+    margin-left: -180px;
     color: #082946;
     background-color: #F2EFE9;
-    width: 250px;
+    width: 350px;
     border-radius: 10px 10px 0px 0px;
 }
 
-#mapa::before {
-    position: absolute;
-    top: 5px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    /* z-index: 1; */
+#map {
+    margin-top: -107px;
+    margin-left: 45px;
+    /* border: solid red; */
+    border-radius: 0px 0px 15px 15px;
+    height: 625px;
+    width: 80%;
 }
 
 .card-mapa {
+    margin: 0;
+    padding: 0;
     position: absolute;
     /* O botão será posicionado acima do mapa */
-    top: 50%;
+    top: 0%;
     /* Centraliza verticalmente em relação ao mapa */
-    left: 50%;
+    left: 0%;
     /* Centraliza horizontalmente em relação ao mapa */
     transform: translate(-50%, -50%);
     /* Ajusta para que o centro do botão fique no centro do mapa */
     z-index: 10;
     /* Garante que o botão fique acima do mapa */
-    margin-top: 115px;
+    margin-left: 650px;
+    border: solid yellow;
+    height: 50px;
 }
 
 #tracarRota {
-    padding: 2% 5px;
+    /* padding: 2% 5px; */
     font-size: 14px;
-    background-color: red;
+    background-color: rgb(230, 71, 8);
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    /* border: solid red; */
-    margin-top: 405px;
+    /* border: solid green; */
+    width: 300px;
+    /* margin-left: -600px; */
 
 }
 
@@ -659,15 +668,15 @@ h1.texto {
         /* Organiza os links em coluna */
     }
 
-    .navbar{
+    .navbar {
         /* background-color: white; */
     }
 
-    .navbar-toggler{
+    .navbar-toggler {
         color: black;
     }
 
-    
+
     /* video*/
     .container-video-apresenta {
         height: auto;
@@ -686,7 +695,7 @@ h1.texto {
         height: 300px;
         margin-top: 30px;
     }
-    
+
     /* Area Conatiner Serviços*/
 
     .container-servico {
@@ -695,7 +704,12 @@ h1.texto {
         border: solid red;
     }
 
-    
+    .container-servico .icone {
+        width: 250px;
+        /* border: solid green; */
+    }
+
+
 
     /* mapa*/
     #map {
@@ -999,15 +1013,15 @@ h1.texto {
     }
 
     /* área do vídeo */
-   
+
     .container-video-apresenta {
         display: contents;
         justify-content: center;
         align-items: center;
         height: auto;
-        width: 100%;       
-        padding: 10px;        
-        box-sizing: border-box;    
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
         background-color: rgb(247, 246, 246);
     }
 
@@ -1056,7 +1070,7 @@ h1.texto {
         text-align: center;
         justify-content: center;
         width: auto;
-        padding: 5%;    
+        padding: 5%;
     }
 
     .container-servico .botoes-servicos {
@@ -1069,21 +1083,21 @@ h1.texto {
     }
 
     .col-4 {
-        
+
         width: 50%;
         /* Tamanho de cada botão em uma linha (dois botões por linha) */
         margin: 10px;
         /* Espaço entre os botões */
     }
 
-    .col-4 a{
+    .col-4 a {
         display: flex;
         flex-direction: column;
         position: relative;
         align-items: center;
         align-content: center;
         justify-content: center;
-        font-size: 1.5rem;   
+        font-size: 1.5rem;
     }
 
 
@@ -1128,7 +1142,7 @@ h1.texto {
         width: 250px;
         border-radius: 10px 10px 0px 0px;
         font-size: small;
-        font-weight: bold; 
+        font-weight: bold;
     }
 
     .card-mapa {
