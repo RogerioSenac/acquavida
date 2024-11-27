@@ -340,6 +340,18 @@ h1.texto {
     /* z-index: 1; */
 }
 
+#mapa .encontre h4 {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-top: -70px;
+    margin-left: -200px;
+    color: #082946;
+    background-color: #F2EFE9;
+    width: 390px;
+    border-radius: 10px 10px 0px 0px;
+}
+
 #mapa .content {
     display: flex;
     position: relative;
@@ -351,28 +363,13 @@ h1.texto {
     margin-left: -10px;
     width: 390px;
     height: 600px;
-    /* border: solid green; */
-
-}
-
-#mapa .encontre h4 {
-    display: flex;
-    position: absolute;
-    text-align: center;
-    /* justify-content: center; */
-    margin-top: -70px;
-    margin-left: -200px;
-    color: #082946;
-    background-color: #F2EFE9;
-    width: 390px;
-    border-radius: 10px 10px 0px 0px;
+    border: solid green;
 }
 
 #map {
     display: flex;
     border-radius: 0px 0px 15px 15px;
-    height: 825px;
-    width: 680px;
+
     border: solid rgb(42, 5, 204);
 }
 
@@ -389,7 +386,9 @@ h1.texto {
     /* Ajusta para que o centro do botão fique no centro do mapa */
     z-index: 10;
     /* Garante que o botão fique acima do mapa */
-    margin-left: 650px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     border: solid yellow;
     height: 50px;
 }
@@ -403,9 +402,10 @@ h1.texto {
     cursor: pointer;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    /* border: solid green; */
-    width: 300px;
-    /* margin-left: -600px; */
+    border: solid green;
+    width: 390px;
+    margin-top: 20px;
+    margin-left: -10px;
 
 }
 
@@ -672,10 +672,6 @@ h1.texto {
         /* Organiza os links em coluna */
     }
 
-    .navbar {
-        /* background-color: white; */
-    }
-
     .navbar-toggler {
         color: black;
     }
@@ -708,12 +704,19 @@ h1.texto {
         border: solid red;
     }
 
+    .col-4{
+        border: solid maroon;
+    }
+
     .container-servico .icone {
         width: 250px;
+        height: 150px;
         /* border: solid green; */
     }
 
-
+    .container-servico a{
+        width: 250px;
+    }
 
     /* mapa*/
     #map {
@@ -1121,7 +1124,6 @@ h1.texto {
     /* Ajuste dos itens de área do mapa */
     #mapa {
         height: 100%;
-
     }
 
     #map {
