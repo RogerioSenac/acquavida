@@ -324,6 +324,7 @@ h1.texto {
     justify-content: center;
     color: white;
     position: relative;
+    border: solid red;
 }
 
 #map {
