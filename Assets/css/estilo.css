@@ -646,318 +646,9 @@ h1.texto {
 
 /* Responsividade para diferentes tamanhos de tela */
 
-/* Tablets em modo retrato e paisagem */
-@media (min-width: 768px) and (max-width: 1024px) {
-
-    .container-fluid {
-        text-align: center;
-        border: solid 3px red
-    }
-
-    .navbar-brand .img-fluid {
-        display: inline-block;
-    }
-
-    h1.texto {
-        font-size: 1.5rem;
-    }
-
-    .container-quem-somos.servico {
-        width: 80%;
-        /* Torna a largura dos serviços mais estreita */
-    }
-
-    .navbar-nav {
-        flex-direction: column;
-        /* Organiza os links em coluna */
-    }
-
-    .navbar-toggler {
-        color: black;
-    }
-
-
-    /* video*/
-    .container-video-apresenta {
-        height: auto;
-        /* Ajusta a altura do container para telas menores */
-    }
-
-    .apresenta {
-        align-items: center;
-        justify-items: center;
-        margin: 0 auto;
-    }
-
-    #meuVideo {
-        justify-content: left;
-        width: 450px;
-        height: 300px;
-        margin-top: 30px;
-    }
-
-    /* Area Conatiner Serviços*/
-
-    .container-servico {
-        padding: 40px 20px;
-        /* Ajusta o padding para telas menores */
-        border: solid red;
-    }
-
-    .col-4{
-        border: solid maroon;
-    }
-
-    .container-servico .icone {
-        width: 250px;
-        height: 150px;
-        /* border: solid green; */
-    }
-
-    .container-servico a{
-        width: 250px;
-    }
-
-    /* mapa*/
-    #map {
-        height: 150px;
-        margin-left: 63px;
-        /* border: solid red; */
-        border-radius: 0px 0px 15px 15px;
-        height: 560px;
-        width: 70%;
-    }
-
-    #mapa .content {
-        position: relative;
-        z-index: 2;
-        text-align: center;
-        margin-top: 100px;
-        width: 450px;
-        height: 400px;
-    }
-
-    #mapa .encontre h4 {
-        display: flex;
-        position: relative;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin-top: -8px;
-        margin-left: -10px;
-        color: #082946;
-        background-color: #F2EFE9;
-        width: 316px;
-        border-radius: 10px 10px 0px 0px;
-    }
-
-    #tracarRota {
-        margin-top: 315px;
-    }
-
-    /* Rodapé Principal */
-    .rodape {
-
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .rodape .card-group {
-        display: flex;
-        flex-wrap: wrap;
-        /* Permite que os elementos quebrem a linha quando necessário */
-        /* justify-content: space-between; Espaçamento entre os itens */
-
-    }
-
-    /* Venha nos visitar alinhado à esquerda */
-    .card-body-1 {
-        flex: 1;
-        /* text-align: left; */
-        max-width: 100%;
-        /* Limita a largura */
-        /* border: solid red; */
-    }
-
-    /* Horários da Academia alinhado à direita */
-    .card-body-3 {
-        flex: 1;
-        /* text-align: right; */
-        max-width: 100%;
-        /* Limita a largura */
-
-    }
-
-    /* Siga-nos nas redes sociais centralizado abaixo */
-    .card-body-2 {
-        justify-content: space-between;
-        justify-items: center;
-        width: 100%;
-        /* text-align: center; */
-        margin-top: 20px;
-        /* Adiciona margem entre os cards */
-        /* border: solid green; */
-    }
-
-    .social-icons a {
-        /* margin: 0 10px; */
-        color: white;
-        text-decoration: none;
-        /* border: solid red; */
-    }
-
-    .rodape-DevRGT .flex {
-        flex-direction: column;
-        /* Organiza o rodapé em coluna */
-    }
-}
-
-/* Responsividade para Notebook */
-@media (min-width: 1152px) {
-
-    /* Ajustes gerais para notebooks */
-    .container-fluid {
-        padding: 20px;
-        /* Ajuste do padding do contêiner */
-    }
-
-    /* Ajuste no cabeçalho */
-    h1.texto {
-        font-size: 2rem;
-        /* Ajusta o tamanho da fonte do título */
-    }
-
-    /* Ajustes gerais de imagem */
-    .img-fluid {
-        max-width: 100%;
-        height: auto;
-        /* Garante que as imagens ocupem 100% da largura */
-    }
-
-    /* Ajuste de fonte no menu de navegação */
-    .navbar-nav {
-        font-size: 1.4rem;
-        /* Aumenta o tamanho da fonte para o menu de navegação */
-    }
-
-    /* Container de vídeo de apresentação */
-    .container-video-apresenta {
-        height: auto;
-        /* Ajusta a altura do container para telas menores */
-    }
-
-    .apresenta {
-        align-items: center;
-        justify-items: center;
-        margin: 0 auto;
-    }
-
-    #meuVideo {
-        justify-content: left;
-        width: 450px;
-        height: 300px;
-        margin-top: 30px;
-    }
-
-    /* Ajuste de botões */
-    .btn.btn-secondary {
-        width: 25%;
-        /* Ajusta o botão para 25% da largura */
-    }
-
-    /* Ajustes no layout da seção "Quem Somos" */
-    .container-quem-somos .servico {
-        width: 60%;
-        /* Torna os serviços mais estreitos */
-    }
-
-    /* Ajuste para o mapa */
-    #map {
-        margin-left: 95px;
-        border-radius: 0px 0px 15px 15px;
-        height: 442px;
-        width: 56%;
-        margin-top: -7px;
-    }
-
-    .encontre h4 {
-        display: flexbox;
-        position: absolute;
-        text-align: left;
-        justify-content: center;
-        margin-top: 53px;
-        margin-left: -130px;
-        color: #082946;
-        background-color: #F2EFE9;
-        width: 250px;
-        border-radius: 10px 10px 0px 0px;
-        font-size: medium;
-        font-weight: bold;
-    }
-
-    #tracarRota {
-        margin-top: 225px;
-        font-size: smaller;
-        padding: 0 3px;
-    }
-
-    /* Ajuste dos ícones de redes sociais e Rodapé */
-
-    .rodape {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .rodape .card-group {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    /* Venha nos visitar alinhado à esquerda */
-    .card-body-1 {
-        flex: 1;
-        /* text-align: left; */
-        max-width: 100%;
-        /* Limita a largura */
-        /* border: solid red; */
-    }
-
-    /* Horários da Academia alinhado à direita */
-    .card-body-3 {
-        flex: 1;
-        /* text-align: right; */
-        max-width: 100%;
-        /* Limita a largura */
-
-    }
-
-    /* Siga-nos nas redes sociais centralizado abaixo */
-    .card-body-2 {
-        justify-content: space-between;
-        justify-items: center;
-        width: 100%;
-        /* text-align: center; */
-        margin-top: 20px;
-        /* Adiciona margem entre os cards */
-        /* border: solid green; */
-    }
-
-    .social-icons a {
-        /* margin: 0 10px; */
-        color: white;
-        text-decoration: none;
-        /* border: solid red; */
-    }
-
-    .rodape-DevRGT .flex {
-        flex-direction: column;
-        /* Organiza o rodapé em coluna */
-    }
-}
-
 
 /* Responsividade para dispositivos Smartphone */
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
     /* área do cabeçalho */
     h1.texto {
@@ -1221,6 +912,313 @@ h1.texto {
 
 }
 
+/* Tablets em modo retrato e paisagem */
+@media (min-width: 600px) and (max-width: 835px) {
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .navbar-brand .img-fluid {
+        display: inline-block;
+    }
+
+    h1.texto {
+        font-size: 1.5rem;
+    }
+
+    .container-quem-somos.servico {
+        width: 80%;
+        /* Torna a largura dos serviços mais estreita */
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        /* Organiza os links em coluna */
+    }
+
+    .navbar-toggler {
+        color: black;
+    }
+
+    /* video*/
+    .container-video-apresenta {
+        height: auto;
+        /* Ajusta a altura do container para telas menores */
+    }
+
+    .apresenta {
+        align-items: center;
+        justify-items: center;
+        margin: 0 auto;
+    }
+
+    #meuVideo {
+        justify-content: left;
+        width: 450px;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    /* Area Conatiner Serviços*/
+
+    .container-servico {
+        padding: 40px 20px;
+        /* Ajusta o padding para telas menores */
+    }
+
+    .container-servico .col-4 {
+        width: 50%;
+        padding: 2%;
+    }
+
+    .container-servico .icone {
+        width: 350px;
+        height: 200px;
+    }
+
+    .container-servico a {
+        padding: 2px;
+        margin: 0;
+        text-align: center;
+    }
+
+    /* mapa*/
+    #map {
+        height: 150px;
+        margin-left: 63px;
+        /* border: solid red; */
+        border-radius: 0px 0px 15px 15px;
+        height: 560px;
+        width: 70%;
+    }
+
+    #mapa .content {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        margin-top: 100px;
+        width: 450px;
+        height: 400px;
+    }
+
+    #mapa .encontre h4 {
+        display: flex;
+        position: relative;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: -8px;
+        margin-left: -10px;
+        color: #082946;
+        background-color: #F2EFE9;
+        width: 316px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    #tracarRota {
+        margin-top: 315px;
+    }
+
+    /* Rodapé Principal */
+    .rodape {
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rodape .card-group {
+        display: flex;
+        flex-wrap: wrap;
+        /* Permite que os elementos quebrem a linha quando necessário */
+        /* justify-content: space-between; Espaçamento entre os itens */
+
+    }
+
+    /* Venha nos visitar alinhado à esquerda */
+    .card-body-1 {
+        flex: 1;
+        /* text-align: left; */
+        max-width: 100%;
+        /* Limita a largura */
+        /* border: solid red; */
+    }
+
+    /* Horários da Academia alinhado à direita */
+    .card-body-3 {
+        flex: 1;
+        /* text-align: right; */
+        max-width: 100%;
+        /* Limita a largura */
+
+    }
+
+    /* Siga-nos nas redes sociais centralizado abaixo */
+    .card-body-2 {
+        justify-content: space-between;
+        justify-items: center;
+        width: 100%;
+        /* text-align: center; */
+        margin-top: 20px;
+        /* Adiciona margem entre os cards */
+        /* border: solid green; */
+    }
+
+    .social-icons a {
+        /* margin: 0 10px; */
+        color: white;
+        text-decoration: none;
+        /* border: solid red; */
+    }
+
+    .rodape-DevRGT .flex {
+        flex-direction: column;
+        /* Organiza o rodapé em coluna */
+    }
+}
+
+/* Responsividade para Notebook */
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    /* Ajustes gerais para notebooks */
+    .container-fluid {
+        padding: 20px;
+        /* Ajuste do padding do contêiner */
+    }
+
+    /* Ajuste no cabeçalho */
+    h1.texto {
+        font-size: 2rem;
+        /* Ajusta o tamanho da fonte do título */
+    }
+
+    /* Ajustes gerais de imagem */
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        /* Garante que as imagens ocupem 100% da largura */
+    }
+
+    /* Ajuste de fonte no menu de navegação */
+    .navbar-nav {
+        font-size: 1.4rem;
+        /* Aumenta o tamanho da fonte para o menu de navegação */
+    }
+
+    /* Container de vídeo de apresentação */
+    .container-video-apresenta {
+        height: auto;
+        /* Ajusta a altura do container para telas menores */
+    }
+
+    .apresenta {
+        align-items: center;
+        justify-items: center;
+        margin: 0 auto;
+    }
+
+    #meuVideo {
+        justify-content: left;
+        width: 450px;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    /* Ajuste de botões */
+    .btn.btn-secondary {
+        width: 25%;
+        /* Ajusta o botão para 25% da largura */
+    }
+
+    /* Ajustes no layout da seção "Quem Somos" */
+    .container-quem-somos .servico {
+        width: 60%;
+        /* Torna os serviços mais estreitos */
+    }
+
+    /* Ajuste para o mapa */
+    #map {
+        margin-left: 95px;
+        border-radius: 0px 0px 15px 15px;
+        height: 442px;
+        width: 56%;
+        margin-top: -7px;
+    }
+
+    .encontre h4 {
+        display: flexbox;
+        position: absolute;
+        text-align: left;
+        justify-content: center;
+        margin-top: 53px;
+        margin-left: -130px;
+        color: #082946;
+        background-color: #F2EFE9;
+        width: 250px;
+        border-radius: 10px 10px 0px 0px;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    #tracarRota {
+        margin-top: 225px;
+        font-size: smaller;
+        padding: 0 3px;
+    }
+
+    /* Ajuste dos ícones de redes sociais e Rodapé */
+
+    .rodape {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .rodape .card-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Venha nos visitar alinhado à esquerda */
+    .card-body-1 {
+        flex: 1;
+        /* text-align: left; */
+        max-width: 100%;
+        /* Limita a largura */
+        /* border: solid red; */
+    }
+
+    /* Horários da Academia alinhado à direita */
+    .card-body-3 {
+        flex: 1;
+        /* text-align: right; */
+        max-width: 100%;
+        /* Limita a largura */
+
+    }
+
+    /* Siga-nos nas redes sociais centralizado abaixo */
+    .card-body-2 {
+        justify-content: space-between;
+        justify-items: center;
+        width: 100%;
+        /* text-align: center; */
+        margin-top: 20px;
+        /* Adiciona margem entre os cards */
+        /* border: solid green; */
+    }
+
+    .social-icons a {
+        /* margin: 0 10px; */
+        color: white;
+        text-decoration: none;
+        /* border: solid red; */
+    }
+
+    .rodape-DevRGT .flex {
+        flex-direction: column;
+        /* Organiza o rodapé em coluna */
+    }
+}
 
 /* Smart TVs */
 @media (max-width: 1920px) {
