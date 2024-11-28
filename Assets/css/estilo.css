@@ -327,7 +327,6 @@ h1.texto {
     justify-content: center;
     color: white;
     position: relative;
-    border: solid red;
 }
 
 #mapa::before {
@@ -363,14 +362,11 @@ h1.texto {
     margin-left: -10px;
     width: 390px;
     height: 600px;
-    border: solid green;
 }
 
 #map {
     display: flex;
     border-radius: 0px 0px 15px 15px;
-
-    border: solid rgb(42, 5, 204);
 }
 
 .card-mapa {
@@ -389,7 +385,6 @@ h1.texto {
     align-items: center;
     align-content: center;
     justify-content: center;
-    border: solid yellow;
     height: 50px;
 }
 
@@ -402,7 +397,6 @@ h1.texto {
     cursor: pointer;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    border: solid green;
     width: 390px;
     margin-top: 20px;
     margin-left: -10px;
@@ -885,10 +879,8 @@ h1.texto {
 
     /* Horários da Academia alinhado à direita */
     .card-body-3 {
-        /* flex: 1; */
         text-align: center;
         max-width: 100%;
-        /* Limita a largura */
     }
 
     /* Siga-nos nas redes sociais centralizado abaixo */
@@ -896,17 +888,12 @@ h1.texto {
         justify-content: space-between;
         justify-items: center;
         width: 100%;
-        /* text-align: center; */
         margin-top: 20px;
-        /* Adiciona margem entre os cards */
-        /* border: solid green; */
     }
 
     .social-icons a {
-        /* margin: 0 10px; */
         color: white;
         text-decoration: none;
-        /* border: solid red; */
         width: 50px;
     }
 
@@ -987,7 +974,6 @@ h1.texto {
     #map {
         height: 150px;
         margin-left: 63px;
-        /* border: solid red; */
         border-radius: 0px 0px 15px 15px;
         height: 560px;
         width: 70%;
@@ -1022,7 +1008,6 @@ h1.texto {
 
     /* Rodapé Principal */
     .rodape {
-
         display: flex;
         flex-wrap: wrap;
     }
@@ -1030,9 +1015,6 @@ h1.texto {
     .rodape .card-group {
         display: flex;
         flex-wrap: wrap;
-        /* Permite que os elementos quebrem a linha quando necessário */
-        /* justify-content: space-between; Espaçamento entre os itens */
-
     }
 
     /* Venha nos visitar alinhado à esquerda */
@@ -1041,16 +1023,13 @@ h1.texto {
         /* text-align: left; */
         max-width: 100%;
         /* Limita a largura */
-        /* border: solid red; */
     }
 
     /* Horários da Academia alinhado à direita */
     .card-body-3 {
         flex: 1;
-        /* text-align: right; */
         max-width: 100%;
         /* Limita a largura */
-
     }
 
     /* Siga-nos nas redes sociais centralizado abaixo */
@@ -1058,17 +1037,12 @@ h1.texto {
         justify-content: space-between;
         justify-items: center;
         width: 100%;
-        /* text-align: center; */
         margin-top: 20px;
-        /* Adiciona margem entre os cards */
-        /* border: solid green; */
     }
 
     .social-icons a {
-        /* margin: 0 10px; */
         color: white;
         text-decoration: none;
-        /* border: solid red; */
     }
 
     .rodape-DevRGT .flex {
@@ -1078,7 +1052,7 @@ h1.texto {
 }
 
 /* Responsividade para Notebook */
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1367px) {
 
     /* Ajustes gerais para notebooks */
     .container-fluid {
@@ -1137,37 +1111,68 @@ h1.texto {
     }
 
     /* Ajuste para o mapa */
-    #map {
-        margin-left: 95px;
-        border-radius: 0px 0px 15px 15px;
-        height: 442px;
-        width: 56%;
-        margin-top: -7px;
+
+    #mapa {
+        margin: 0;
+        padding: 0;
     }
 
-    .encontre h4 {
-        display: flexbox;
-        position: absolute;
-        text-align: left;
+    #mapa .content {
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between ;
+        padding: 0;
+        margin: 0;
+        width: 18.5%;
+        height: 415px;
+        margin-top: -30px;
+        margin-left: -10px;
+        /* border: solid rgb(248, 0, 0); */
+    }
+
+
+    #map {
+        /* margin-left: 95px; */
+        border-radius: 0px 0px 0px 0px;
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+        /* border: solid yellow; */
+    }
+
+    .content h4 {
+        display: flex;
+        align-items: center;
+        align-content: center;
         justify-content: center;
-        margin-top: 53px;
-        margin-left: -130px;
-        color: #082946;
-        background-color: #F2EFE9;
-        width: 250px;
-        border-radius: 10px 10px 0px 0px;
         font-size: medium;
         font-weight: bold;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 15px 15px 0px 0px;
+        background-color: rgb(230, 71, 8);
+        color: #fff;
+        /* border: solid red; */
     }
 
     #tracarRota {
-        margin-top: 225px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 0px;
         font-size: smaller;
-        padding: 0 3px;
+        padding: 0 px;
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 0px 0px 15px 15px;
+        /* border: solid yellow; */
     }
 
     /* Ajuste dos ícones de redes sociais e Rodapé */
-
     .rodape {
         display: flex;
         flex-wrap: wrap;
@@ -1181,16 +1186,13 @@ h1.texto {
     /* Venha nos visitar alinhado à esquerda */
     .card-body-1 {
         flex: 1;
-        /* text-align: left; */
         max-width: 100%;
         /* Limita a largura */
-        /* border: solid red; */
     }
 
     /* Horários da Academia alinhado à direita */
     .card-body-3 {
         flex: 1;
-        /* text-align: right; */
         max-width: 100%;
         /* Limita a largura */
 
@@ -1201,17 +1203,13 @@ h1.texto {
         justify-content: space-between;
         justify-items: center;
         width: 100%;
-        /* text-align: center; */
         margin-top: 20px;
         /* Adiciona margem entre os cards */
-        /* border: solid green; */
     }
 
     .social-icons a {
-        /* margin: 0 10px; */
         color: white;
         text-decoration: none;
-        /* border: solid red; */
     }
 
     .rodape-DevRGT .flex {
