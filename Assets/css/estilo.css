@@ -327,7 +327,6 @@ h1.texto {
     justify-content: center;
     color: white;
     position: relative;
-    border: solid red;
 }
 
 #mapa::before {
@@ -363,14 +362,11 @@ h1.texto {
     margin-left: -10px;
     width: 390px;
     height: 600px;
-    border: solid green;
 }
 
 #map {
     display: flex;
     border-radius: 0px 0px 15px 15px;
-
-    border: solid rgb(42, 5, 204);
 }
 
 .card-mapa {
@@ -389,7 +385,6 @@ h1.texto {
     align-items: center;
     align-content: center;
     justify-content: center;
-    border: solid yellow;
     height: 50px;
 }
 
@@ -402,7 +397,6 @@ h1.texto {
     cursor: pointer;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    border: solid green;
     width: 390px;
     margin-top: 20px;
     margin-left: -10px;
@@ -895,7 +889,7 @@ h1.texto {
         justify-items: center;
         width: 100%;
         margin-top: 20px;
-      }
+    }
 
     .social-icons a {
         color: white;
@@ -1043,7 +1037,7 @@ h1.texto {
         justify-content: space-between;
         justify-items: center;
         width: 100%;
-        margin-top: 20px;      
+        margin-top: 20px;
     }
 
     .social-icons a {
@@ -1118,39 +1112,64 @@ h1.texto {
 
     /* Ajuste para o mapa */
 
-    .content{
-        border: solid black;
+    #mapa {
+        margin: 0;
+        padding: 0;
+    }
+
+    #mapa .content {
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between ;
+        padding: 0;
+        margin: 0;
+        width: 18.5%;
+        height: 415px;
+        margin-top: -30px;
+        margin-left: -10px;
+        /* border: solid rgb(248, 0, 0); */
     }
 
 
     #map {
-        margin-left: 95px;
-        border-radius: 0px 0px 15px 15px;
-        height: 442px;
-        width: 56%;
+        /* margin-left: 95px; */
+        border-radius: 0px 0px 0px 0px;
+        height: 100%;
+        width: 100%;
         margin-top: 0px;
-        border: solid yellow;
+        /* border: solid yellow; */
     }
 
-    .encontre h4 {
-        display: flexbox;
-        position: absolute;
-        text-align: left;
+    .content h4 {
+        display: flex;
+        align-items: center;
+        align-content: center;
         justify-content: center;
-        margin-top: 53px;
-        margin-left: -130px;
-        color: #082946;
-        background-color: #F2EFE9;
-        width: 250px;
-        border-radius: 10px 10px 0px 0px;
         font-size: medium;
         font-weight: bold;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 15px 15px 0px 0px;
+        background-color: rgb(230, 71, 8);
+        color: #fff;
+        /* border: solid red; */
     }
 
     #tracarRota {
-        margin-top: 225px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 0px;
         font-size: smaller;
-        padding: 0 3px;
+        padding: 0 px;
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 0px 0px 15px 15px;
+        /* border: solid yellow; */
     }
 
     /* Ajuste dos ícones de redes sociais e Rodapé */
