@@ -1,6 +1,8 @@
 @import url(https://use.fontawesome.com/releases/v6.4.2/css/all.css);
 
-/************************ Estrutura básica ******************************/
+/*  ===========================================================
+                    Estrutura básica 
+    =========================================================== */
 * {
     margin: o;
     padding: o;
@@ -19,7 +21,10 @@ h1 {
     color: #fff;
 }
 
-/**************************** Cabeçalho (Menu) ******************/
+/*  ===========================================================
+                        Imagem Cabeçalho
+    =========================================================== */
+
 .container-fluid {
     display: flex;
     justify-content: center;
@@ -38,9 +43,11 @@ h1 {
     position: relative;
     width: 560px;
     height: 160px;
-
 }
 
+/*  ===========================================================
+                        Texto Cabeçalho
+    =========================================================== */
 h1.texto {
     text-align: center;
     /* Garante que o texto dentro de h1 seja centralizado */
@@ -49,14 +56,24 @@ h1.texto {
     /* Ajuste o tamanho da fonte conforme necessário */
     margin: 0;
     /* Remove margens padrão */
-    padding: 0;
-    /* Remove padding, se houver */
+    padding: 20px;
     justify-content: center;
     background-color: #092946;
 }
 
+.linha-separadora {
+    border: none;    /* Remove a borda padrão */
+    height: 4px;     /* Define a espessura da linha */
+    background-color: #ccc;  /* Cor da linha */
+    margin: 20px 0px;   /* Espaçamento antes e depois da linha */
+}
+
+/*  ===========================================================
+                        Menu Cabeçalho
+    =========================================================== */
+
 .navbar {
-    background-color: #092946;
+    background-color: #00A1E7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +117,10 @@ h1.texto {
     /* Move para a posição original no hover */
 }
 
-/*-------container Apresentação -------*/
+/*  ===========================================================
+                    Container Apresentação Video
+    =========================================================== */
+
 .container-video-apresenta {
     background-color: rgb(0, 0, 0);
     overflow: auto;
@@ -141,40 +161,9 @@ h1.texto {
     margin-top: 30px;
 }
 
-/* container Pagina Quem Somos */
-
-.btn.btn-secondary {
-    display: block;
-    /* Faz o botão se comportar como um bloco */
-    margin: 20px auto;
-    /* Centraliza com margens automáticas */
-    padding: 10px 20px;
-    /* Ajuste o padding conforme necessário */
-    background-color: #6c757d;
-    /* Cor de fundo */
-    color: white;
-    /* Cor do texto */
-    border: none;
-    /* Remove a borda padrão */
-    border-radius: 5px;
-    /* Bordas arredondadas */
-    font-size: 16px;
-    /* Tamanho da fonte */
-    transition: background-color 0.3s ease;
-    /* Transição suave para o efeito hover */
-    text-align: center;
-    /* Centraliza o texto dentro do botão */
-    width: 10%;
-    /* Largura ajustada ao conteúdo */
-}
-
-.btn.btn-secondary:hover {
-    background-color: #5a6268;
-    /* Cor de fundo alterada ao passar o mouse */
-    cursor: pointer;
-    /* Altera o cursor para indicar que é clicável */
-}
-
+/*  ===========================================================
+                    Container  Página Quem Somos
+    =========================================================== */
 .container-quem-somos {
     display: flex;
     /* Ativa o Flexbox para o alinhamento */
@@ -200,7 +189,7 @@ h1.texto {
 
 .container-quem-somos .servico {
     float: center;
-    margin: 60px auto;
+    margin: 0px auto;
     width: 50%;
     padding: 5px;
     border-radius: 10px;
@@ -212,11 +201,7 @@ h1.texto {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-}
-
-.container-quem-somos .servico .foto_capa {
-    margin: 0;
-    width: 600px;
+    background-color: goldenrod;
 }
 
 .container-quem-somos .servico-texto {
@@ -235,7 +220,42 @@ h1.texto {
     font-weight: bold;
 }
 
-/* container serviço */
+.btn.btn-secondary {
+    display: flexbox;
+    /* Faz o botão se comportar como um bloco */
+    margin: 20px auto;
+    /* Centraliza com margens automáticas */
+    padding: 10px;
+    /* Ajuste o padding conforme necessário */
+    background-color: #6c757d;
+    /* Cor de fundo */
+    color: white;
+    /* Cor do texto */
+    border: none;
+    /* Remove a borda padrão */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    transition: background-color 0.3s ease;
+    /* Transição suave para o efeito hover */
+    text-align: center;
+    /* Centraliza o texto dentro do botão */
+    /* width: 10%; */
+    /* Largura ajustada ao conteúdo */
+}
+
+.btn.btn-secondary:hover {
+    background-color: #5a6268;
+    /* Cor de fundo alterada ao passar o mouse */
+    cursor: pointer;
+    /* Altera o cursor para indicar que é clicável */
+}
+
+/*  ===========================================================
+                    Container Serviços Oferecidos
+    =========================================================== */
+
 .container-servico {
     background-color: #082946;
     padding: 80px;
@@ -304,7 +324,6 @@ h1.texto {
     margin-bottom: 10px;
     /* Espaço entre a imagem e o texto */
     padding: 10px;
-    /* border: solid blue; */
 }
 
 /* formataçao span textos paginas */
@@ -315,7 +334,10 @@ h1.texto {
     font-weight: bold;
 }
 
-/************* Seção: Mapa *******************/
+/*  ===========================================================
+                    Container Mapa Localização
+    =========================================================== */
+
 #mapa {
     background-image: url('../imagem/celular2.png');
     background-size: cover;
@@ -400,14 +422,15 @@ h1.texto {
     width: 390px;
     margin-top: 20px;
     margin-left: -10px;
-
 }
 
 #tracarRota:hover {
     background-color: #495057;
 }
 
-/****************** Footer ****************/
+/*  ===========================================================
+                    Container Rodapé
+    =========================================================== */
 
 .rodape {
     width: 100%;
@@ -424,10 +447,9 @@ h1.texto {
     background-color: #008eb9;
     margin-top: 15px;
     z-index: 0;
-    /* border: red solid; */
 }
 
-
+/* ---- Seção Cards de aviso  ---- */
 .card-group {
     display: flex;
     flex-direction: column;
@@ -442,7 +464,6 @@ h1.texto {
     margin: 10px;
     /* Margem horizontal para espaçamento */
     margin-left: 20px;
-    /* border: solid red; */
 }
 
 .card-group:hover {
@@ -467,7 +488,6 @@ h1.texto {
     text-align: center;
     /* Centraliza os itens horizontalmente */
 }
-
 
 .card-body-1 li {
     padding-left: 0;
@@ -511,8 +531,7 @@ h1.texto {
     color: white;
 }
 
-
-/* Ícones das redes sociais */
+/* ---- Seção Ícones das redes sociais ---- */
 .social-icons {
     display: flex;
     gap: 5px;
@@ -522,8 +541,6 @@ h1.texto {
     text-decoration: none;
     margin: 0;
     /* Remover margens para evitar problemas de layout */
-    /* border-radius: 50%; */
-    /* box-sizing: border-box; */
     width: 100px;
     height: 50px;
     display: flex;
@@ -572,7 +589,10 @@ h1.texto {
     font-size: 2rem;
 }
 
-/********* Rodapé DevRGT *************/
+/*  ===========================================================
+                    Container Footer - Developers
+    =========================================================== */
+
 .rodape-DevRGT {
     background-color: #333;
     /* Cor de fundo */
@@ -638,10 +658,14 @@ h1.texto {
     color: white;
 }
 
-/* Responsividade para diferentes tamanhos de tela */
+/*  =============================================================
+    =                                                           =
+    =       Responsividade para diferentes tamanhos de tela     =
+    =                                                           =
+    ============================================================= */
 
+/* ===== Responsividade para dispositivos Smartphone ==== */
 
-/* Responsividade para dispositivos Smartphone */
 @media (min-width: 320px) and (max-width: 480px) {
 
     /* área do cabeçalho */
@@ -899,7 +923,7 @@ h1.texto {
 
 }
 
-/* Tablets em modo retrato e paisagem */
+/* ===== Responsividade para dispositivos Tablet  ==== */
 @media (min-width: 600px) and (max-width: 835px) {
 
     .container-fluid {
@@ -1051,7 +1075,7 @@ h1.texto {
     }
 }
 
-/* Responsividade para Notebook */
+/* ===== Responsividade para dispositivos Notebook  ==== */
 @media (min-width: 1024px) and (max-width: 1367px) {
 
     /* Ajustes gerais para notebooks */
@@ -1111,7 +1135,6 @@ h1.texto {
     }
 
     /* Ajuste para o mapa */
-
     #mapa {
         margin: 0;
         padding: 0;
@@ -1121,16 +1144,14 @@ h1.texto {
         display: block;
         align-items: center;
         align-content: center;
-        justify-content: space-between ;
+        justify-content: space-between;
         padding: 0;
         margin: 0;
         width: 18.5%;
         height: 415px;
         margin-top: -30px;
         margin-left: -10px;
-        /* border: solid rgb(248, 0, 0); */
     }
-
 
     #map {
         /* margin-left: 95px; */
@@ -1138,7 +1159,6 @@ h1.texto {
         height: 100%;
         width: 100%;
         margin-top: 0px;
-        /* border: solid yellow; */
     }
 
     .content h4 {
@@ -1155,7 +1175,6 @@ h1.texto {
         border-radius: 15px 15px 0px 0px;
         background-color: rgb(230, 71, 8);
         color: #fff;
-        /* border: solid red; */
     }
 
     #tracarRota {
@@ -1169,7 +1188,6 @@ h1.texto {
         width: 100%;
         margin-left: 1px;
         border-radius: 0px 0px 15px 15px;
-        /* border: solid yellow; */
     }
 
     /* Ajuste dos ícones de redes sociais e Rodapé */
@@ -1218,7 +1236,8 @@ h1.texto {
     }
 }
 
-/* Smart TVs */
+/* ===== Responsividade para dispositivos Smart TV  ==== */
+
 @media (max-width: 1920px) {
     .container-video-apresenta {
         height: 500px;

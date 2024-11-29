@@ -23,7 +23,7 @@ include '../includes/header.php'
     <!--quem somos-->
     <section class="container-quem-somos">
         <article class="servico">
-            <img class="icones" src="../assets/imagem/icon_ironman.png" class="icone" alt="icone" alt="quemsomos">
+            <img class="icones" src="../assets/imagem/icon_ironman.png" class="icone" alt="icone" alt="foto triatlo">
             <p class="servico-texto">
                 Seja bem-vindo à <span class="servico-texto-realce"> Academia Acqua Vida </span>, onde a paixão pela saúde e bem-estar se transforma em aprendizado e prática. Somos uma <span class="servico-texto-realce">escola de natação</span> e uma <span class="servico-texto-realce">academia</span> comprometida em promover um estilo de vida saudável para todos.<br>
 
@@ -34,7 +34,7 @@ include '../includes/header.php'
         </article>
 
         <article class="servico">
-            <img src="../assets/imagem/icon-halter.png" class="icones" alt="icone" alt="Aparelhos Modernos">
+            <img src="../assets/imagem/icon-halter.png" class="icones" alt="icone" alt="Halter">
             <p class="servico-texto">
                 Oferecemos uma infraestrutura de ponta, com equipamentos que garantem a melhor experiência para os nossos alunos. Nossas instalações foram cuidadosamente planejadas para atender a todas as suas necessidades, proporcionando um ambiente confortável e funcional.<br>
 
@@ -43,7 +43,7 @@ include '../includes/header.php'
         </article>
 
         <article class="servico">
-            <img src="../assets/imagem/icon_personal-removebg-preview.png" class="icones" alt="icone" alt="Programadores experientes">
+            <img src="../assets/imagem/icon_personal-removebg-preview.png" class="icones" alt="icone" alt="Personal">
             <p class="servico-texto">
                 Contamos com uma equipe de profissionais altamente qualificados, dedicados a ajudar você a alcançar e superar seus limites. Nossos colaboradores são especialistas em suas áreas e estão sempre prontos para oferecer orientação, motivação e suporte personalizado.<br>
 
