@@ -832,42 +832,45 @@ h1.texto {
 
     /* Ajuste dos itens de área do mapa */
     #mapa {
-        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #mapa .content {
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        width: 60%;
+        height: 415px;
+        margin-top: -30px;
+        margin-left: -10px;
     }
 
     #map {
-        margin-left: 100px;
-        border-radius: 0px 0px 15px 15px;
-        height: 90%;
-        width: 54%;
-        margin-top: -15px;
+        /* margin-left: 95px; */
+        border-radius: 0px 0px 0px 0px;
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .content h4 {
+        display: flex;
         align-items: center;
         align-content: center;
         justify-content: center;
-    }
-
-    #mapa .encontre h4 {
-        display: flex;
-        position: absolute;
-        /* margin-top: 55px; */
-        align-items: center;
-        justify-content: center;
-        color: #082946;
-        background-color: #F2EFE9;
-        width: 250px;
-        border-radius: 10px 10px 0px 0px;
-        font-size: small;
+        font-size: medium;
         font-weight: bold;
-    }
-
-    .card-mapa {
-        margin: 0;
         padding: 0;
-        margin-left: -5px;
-        margin-top: 190px;
-        width: 245px;
-        height: 45px;
-        border-radius: 0px 0px 10px 10px;
+        margin: 0;
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 15px 15px 0px 0px;
+        background-color: rgb(230, 71, 8);
+        color: #fff;
     }
 
     #tracarRota {
@@ -875,11 +878,12 @@ h1.texto {
         align-items: center;
         align-content: center;
         justify-content: center;
-        margin: 0;
-        padding: 0;
+        margin-top: 0px;
         font-size: smaller;
-        width: 245px;
-        height: 40px;
+        padding: 0 px;
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 0px 0px 15px 15px;
     }
 
     /* Ajuste dos itens de área do footer */
@@ -995,39 +999,59 @@ h1.texto {
     }
 
     /* mapa*/
-    #map {
-        height: 150px;
-        margin-left: 63px;
-        border-radius: 0px 0px 15px 15px;
-        height: 560px;
-        width: 70%;
+    #mapa {
+        margin: 0;
+        padding: 0;
     }
 
     #mapa .content {
-        position: relative;
-        z-index: 2;
-        text-align: center;
-        margin-top: 100px;
-        width: 450px;
-        height: 400px;
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        height: 745px;
+        margin-top: 0px;
+        margin-left: -10px;
     }
 
-    #mapa .encontre h4 {
+    #map {
+        /* margin-left: 95px; */
+        border-radius: 0px 0px 0px 0px;
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .content h4 {
         display: flex;
-        position: relative;
-        text-align: center;
         align-items: center;
+        align-content: center;
         justify-content: center;
-        margin-top: -8px;
-        margin-left: -10px;
-        color: #082946;
-        background-color: #F2EFE9;
-        width: 316px;
-        border-radius: 10px 10px 0px 0px;
+        font-size: medium;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 15px 15px 0px 0px;
+        background-color: rgb(230, 71, 8);
+        color: #fff;
     }
 
     #tracarRota {
-        margin-top: 315px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 0px;
+        font-size: smaller;
+        padding: 0 px;
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 0px 0px 15px 15px;
     }
 
     /* Rodapé Principal */
