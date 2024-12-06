@@ -36,7 +36,7 @@
                     <a class="nav-link" href="/Projeto-Acqua-Vida/index.php">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./pages/quem_somos.php">Sobre Nós</a>
+                    <a class="nav-link" href="/Projeto-Acqua-Vida/pages/quem_somos.php">Sobre Nós</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.facebook.com/AcademiaAcquaVida/photos_by?locale=pt_BR" target="_blank">Fotos</a>

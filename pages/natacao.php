@@ -24,7 +24,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projeto-Acqua-Vida/includes/header.php");
     <!--quem somos-->
     <section class="container-quem-somos">
         <article class="servico">
-            <img class="foto_capa" src="../Assets/imagem/natacao.png" class="icone" alt="icone" alt="natacao">
+            <img class="foto_capa" src="../Assets/imagem/natacao2.png" class="icone" alt="icone" alt="natacao">
             <p class="servico-texto">
                 Na <span class="servico-texto-realce"> Academia Acqua Vida </span>, a modalidade de natação é pensada para ir além dos quatro estilos clássicos de nado. Nosso lema — desenvolver além dos 4 nados — reflete o compromisso de promover não só a técnica, mas também valores de vida, em um ambiente que atende crianças, jovens e adultos de 0 a 90 anos. Com uma abordagem formativa, buscamos desenvolver o comportamento e a técnica de cada aluno, respeitando as individualidades e fases de cada um.
             </p>

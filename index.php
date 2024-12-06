@@ -43,7 +43,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projeto-Acqua-Vida/includes/header.php");
                     <a href="./pages/hidroterapia.php">Hidroterapia</a>
                 </div>
                 <div class="col-4">
-                    <img src="./Assets/imagem/hidro.jpg" class="icone" alt="hidroginástica">
+                    <img src="./Assets/imagem/hidroginastica2.jpg" class="icone" alt="hidroginástica">
                     <a href="./pages/hidro.php">Hidroginástica</a>
                 </div>
                 <div class="col-4">
@@ -51,7 +51,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projeto-Acqua-Vida/includes/header.php");
                     <a href="./pages/baby.php">Natação Infantil</a>
                 </div>
                 <div class="col-4">
-                    <img src="./Assets/imagem/natacao.png" class="icone" alt="natação">
+                    <img src="./Assets/imagem/natacao2.png" class="icone" alt="natação">
                     <a href="./pages/natacao.php">Natação Geral</a>
                 </div>
                 <div class="col-4">
