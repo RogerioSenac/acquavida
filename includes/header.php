@@ -21,7 +21,7 @@
     <!-- Cabeçalho e Navegação -->
     <div class="container-fluid">
         <a class="piscina" href="#">
-            <img src="/Projetos_Git/Projeto-Acqua-Vida/assets/imagem/logo_acqua_vida.jpg" alt="Logotipo"
+            <img src="/Projeto-Acqua-Vida/assets/imagem/logo_acqua_vida.jpg" alt="Logotipo"
                 class="img-fluid">
         </a>
     </div>

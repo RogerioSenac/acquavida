@@ -16,7 +16,6 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projeto-Acqua-Vida/includes/header.php");
 </head>
 
 <body>
-    TESTE GIT COM FTP
     <section class="container-video-apresenta">
         <h1>Prazer, somos a Acqua Vida!</h1>
         <article class="apresenta">

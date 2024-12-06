@@ -23,7 +23,7 @@ include '../includes/header.php'
     <!--quem somos-->
     <section class="container-quem-somos">
         <article class="servico">
-            <img class="icones" src="../assets/imagem/icon_ironman.png" class="icone" alt="icone" alt="foto triatlo">
+            <img class="icones" src="../Assets/imagem/icon_ironman.png" class="icone" alt="icone" alt="foto triatlo">
             <p class="servico-texto">
                 Seja bem-vindo à <span class="servico-texto-realce"> Academia Acqua Vida </span>, onde a paixão pela saúde e bem-estar se transforma em aprendizado e prática. Somos uma <span class="servico-texto-realce">escola de natação</span> e uma <span class="servico-texto-realce">academia</span> comprometida em promover um estilo de vida saudável para todos.<br>
 
