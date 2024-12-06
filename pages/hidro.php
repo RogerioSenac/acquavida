@@ -24,7 +24,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projeto-Acqua-Vida/includes/header.php");
     <!--quem somos-->
     <section class="container-quem-somos">
         <article class="servico">
-            <img class="foto_capa" src="../Assets/imagem/hidro.jpg" class="icone" alt="icone" alt="hidroginastica">
+            <img class="foto_capa" src="../Assets/imagem/hidroginastica.jpg" class="icone" alt="icone" alt="hidroginastica">
             <p class="servico-texto">
                 A hidroginástica é uma das atividades mais versáteis e eficazes para quem busca melhorar o condicionamento físico de forma suave e sem impacto. <br>
                 Na <span class="servico-texto-realce"> Academia Acqua Vida </span>, a hidroginástica é projetada para promover a saúde e o bem-estar de alunos de todas as idades e níveis de condicionamento. Com foco em desenvolvimento físico, socialização e reabilitação, nossos programas de hidroginástica são realizados em um ambiente acolhedor e seguro, com profissionais qualificados para orientar cada aluno de acordo com suas necessidades e objetivos.
