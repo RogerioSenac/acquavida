@@ -1,5 +1,5 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/header.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/Projeto-Acqua-Vida/includes/header.php");
 
 
 ?>
@@ -14,7 +14,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Academia Acqua Vida</title>
     <!--Estilos da pagina-->
-    <link rel="stylesheet" href="/Projetos_Git/Projeto-Acqua-Vida/Assets/css/estilo.css">
+    <link rel="stylesheet" href="../Assets/css/estilo.css">
 
     <!--favicon-->
     <link rel="shortcut icon" href="../Assets/imagem/icone_logo_acqua.png" type="image/png">
