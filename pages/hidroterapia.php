@@ -1,5 +1,5 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . "/Projeto-Acqua-Vida/includes/header.php");
+include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/header.php");
 
 
 ?>
@@ -24,7 +24,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projeto-Acqua-Vida/includes/header.php");
     <!--quem somos-->
     <section class="container-quem-somos">
         <article class="servico">
-            <img class="foto_capa" src="../Assets/imagem/hidroterapia.jpg" class="icone" alt="icone" alt="hidroginastica">
+            <img class="foto_capa" src="../Assets/imagem/hidroterapia.jpg" alt="hidroginastica">
             <p class="servico-texto">
                 A hidroterapia é uma prática terapêutica que utiliza a água em diferentes formas e temperaturas para promover a saúde e o bem-estar. Através de exercícios específicos na água, ela pode oferecer uma série de benefícios tanto para o corpo quanto para a mente.
             </p>
