@@ -664,9 +664,10 @@ h1.texto {
     =                                                           =
     ============================================================= */
 
-/* ===== Responsividade para dispositivos Smartphone ==== */
-
-@media (min-width: 320px) and (max-width: 480px) {
+/* ===== Responsividade para dispositivos :==== 
+   ===== iPhone 5 / iPhone SE 216          ====    
+*/
+@media (min-width: 320px) and (max-width: 359px) {
 
     /* área do cabeçalho */
     h1.texto {
@@ -843,9 +844,9 @@ h1.texto {
         justify-content: space-between;
         padding: 0;
         margin: 0;
-        width: 60%;
-        height: 415px;
-        margin-top: -30px;
+        width: 51%;
+        height: 275px;
+        margin-top: -40px;
         margin-left: -10px;
     }
 
@@ -862,7 +863,7 @@ h1.texto {
         align-items: center;
         align-content: center;
         justify-content: center;
-        font-size: medium;
+        font-size: small;
         font-weight: bold;
         padding: 0;
         margin: 0;
@@ -886,10 +887,13 @@ h1.texto {
         border-radius: 0px 0px 15px 15px;
     }
 
-    /* Ajuste dos itens de área do footer */
+    /* == Ajuste dos itens de área do footer == */
     .rodape {
         display: flex;
         flex-wrap: wrap;
+        /* border: solid red; */
+        height: 100%;
+        font-size: small;
     }
 
     .rodape .card-group {
@@ -918,12 +922,28 @@ h1.texto {
         width: 100%;
         margin-top: 20px;
     }
+    .card-body-1 h3{
+        font-size: medium;
+    }   
+
+    .card-body-1 li{
+        font-size: small;
+    }  
+
+    .card-body-2 h3{
+        font-size: medium;
+    }
+    .card-body-3 h3{
+        font-size: medium;
+    }
 
     .social-icons a {
         color: white;
         text-decoration: none;
         width: 50px;
     }
+
+
 }
 
 /* ===== Responsividade para dispositivos Tablet  ==== */
