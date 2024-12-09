@@ -1088,6 +1088,64 @@ h1.texto {
         padding: 10px;
     }
 
+    
+    /*** Ajuste dos itens de área do mapa ***/
+    #mapa {
+        margin: 0;
+        padding: 0;
+    }
+
+    #mapa .content {
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        width: 70%;
+        height: 425px;
+        margin-top: -25px;
+        margin-left: -10px;
+    }
+
+    #map {
+        /* margin-left: 95px; */
+        border-radius: 0px 0px 0px 0px;
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .content h4 {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        font-size: small;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 15px 15px 0px 0px;
+        background-color: rgb(230, 71, 8);
+        color: #fff;
+    }
+
+    #tracarRota {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 0px;
+        font-size: smaller;
+        padding: 0 px;
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+
 }
 
 
