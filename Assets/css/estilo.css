@@ -62,10 +62,14 @@ h1.texto {
 }
 
 .linha-separadora {
-    border: none;    /* Remove a borda padrão */
-    height: 4px;     /* Define a espessura da linha */
-    background-color: #ccc;  /* Cor da linha */
-    margin: 20px 0px;   /* Espaçamento antes e depois da linha */
+    border: none;
+    /* Remove a borda padrão */
+    height: 4px;
+    /* Define a espessura da linha */
+    background-color: #ccc;
+    /* Cor da linha */
+    margin: 20px 0px;
+    /* Espaçamento antes e depois da linha */
 }
 
 /*  ===========================================================
@@ -607,7 +611,6 @@ h1.texto {
 }
 
 .rodape-DevRGT .interface {
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -667,7 +670,7 @@ h1.texto {
 /* ===== Responsividade para dispositivos :==== 
    ===== iPhone 5 / iPhone SE 216          ====    
 */
-@media (min-width: 320px) and (max-width: 359px) {
+@media (min-width: 320px) and (max-width: 350px) {
 
     /* área do cabeçalho */
     h1.texto {
@@ -817,12 +820,26 @@ h1.texto {
         font-size: 1.5rem;
     }
 
+    .botoes-servicos .icone {
+        width: 350px;
+        /* Define uma largura fixa para as imagens */
+        height: 220px;
+        /* Mantém a proporção das imagens */
+        margin-bottom: 10px;
+        /* Espaço entre a imagem e o texto */
+        padding: 10px;
+    }
 
     /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
         font-size: small;
+    }
+
+    .container-quem-somos .foto_capa {
+        width: 100%;
+        height: 50%;
     }
 
     .btn.btn-secondary {
@@ -891,7 +908,6 @@ h1.texto {
     .rodape {
         display: flex;
         flex-wrap: wrap;
-        /* border: solid red; */
         height: 100%;
         font-size: small;
     }
@@ -922,18 +938,261 @@ h1.texto {
         width: 100%;
         margin-top: 20px;
     }
-    .card-body-1 h3{
-        font-size: medium;
-    }   
 
-    .card-body-1 li{
-        font-size: small;
-    }  
-
-    .card-body-2 h3{
+    .card-body-1 h3 {
         font-size: medium;
     }
-    .card-body-3 h3{
+
+    .card-body-1 li {
+        font-size: small;
+    }
+
+    .card-body-2 h3 {
+        font-size: medium;
+    }
+
+    .card-body-3 h3 {
+        font-size: medium;
+    }
+
+    .social-icons a {
+        color: white;
+        text-decoration: none;
+        width: 50px;
+    }
+}
+
+/* ===== Responsividade para dispositivos :==== 
+    Galaxy A12 / Galaxy S21 Ultra / Galaxy S22
+    Galaxy S22 + / Galaxy S22 Ultra / Galaxy Z Flip3
+    Google Pixel 6 PRO /Huawei P30 Pro / iPhone 12 Mini
+    Non-Branded smartphone / OPPO Find X3 PRO
+    Sansung Galaxy S20 / Sansung Galaxy S24
+    Xiaomi 12 / Xiaomi Mi 11i
+    =========================================    
+*/
+@media (min-width: 359px) and (max-width: 374px) {
+
+    body {
+        background-color: black;
+    }
+
+    /*Area Cabeçalho*/
+    .container-fluid .piscina {
+        width: 100%;
+    }
+
+    h1.texto {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff;
+        /* Torna o ícone visível */
+        justify-content: left;
+    }
+
+    /* Area Video*/
+    .container-video-apresenta {
+        background-color: black;
+        display: contents;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .container-video-apresenta h1,
+    .container-video-apresenta h4 {
+        font-size: medium;
+        /* Ajusta o tamanho da fonte para h1 e h4 */
+    }
+
+    .apresenta {
+        background-image: url(../imagem/tela-video-transp.png);
+        background-size: contain;
+        /* Faz com que a imagem de fundo cubra toda a área */
+        background-position: center;
+        /* Centraliza a imagem de fundo */
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* Faz o contêiner ocupar toda a largura */
+        height: 90%;
+        /* Faz o contêiner ocupar toda a altura disponível */
+        margin: 0;
+        background-color: rgb(0, 0, 0);
+    }
+
+    #meuVideo {
+        width: 50%;
+        /* Ajusta a largura do vídeo */
+        height: 10%;
+        /* Mantém a proporção do vídeo */
+        object-fit: cover;
+        /*Faz o vídeo preencher o contêiner sem distorção */
+        margin-top: 3px;
+    }
+
+    /*******  Area Serviços  *********/
+
+    .container-servico {
+        flex-wrap: wrap;
+        padding: 0;
+        background-color: #495057;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .container-servico .servico-texto {
+        font-size: small;
+        text-align: center;
+        justify-content: center;
+        width: auto;
+        padding: 5%;
+    }
+
+    .container-servico .botoes-servicos {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4px;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .col-4 {
+        width: 100%;
+        /* Tamanho de cada botão em uma linha (dois botões por linha) */
+        margin: 10px;
+        /* Espaço entre os botões */
+    }
+
+    .botoes-servicos .icone {
+        width: 300px;
+        /* Define uma largura fixa para as imagens */
+        height: 200px;
+        /* Mantém a proporção das imagens */
+        margin-bottom: 10px;
+        /* Espaço entre a imagem e o texto */
+        padding: 10px;
+    }
+
+
+    /*** Ajuste dos itens de área do mapa ***/
+    #mapa {
+        margin: 0;
+        padding: 0;
+    }
+
+    #mapa .content {
+        display: block;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        width: 70%;
+        height: 425px;
+        margin-top: -25px;
+        margin-left: -10px;
+    }
+
+    #map {
+        /* margin-left: 95px; */
+        border-radius: 0px 0px 0px 0px;
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .content h4 {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        font-size: small;
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 15px 15px 0px 0px;
+        background-color: rgb(230, 71, 8);
+        color: #fff;
+    }
+
+    #tracarRota {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 0px;
+        font-size: smaller;
+        padding: 0 px;
+        width: 100%;
+        margin-left: 1px;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    /* == Ajuste dos itens de área do footer == */
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 100%;
+        font-size: medium;
+    }
+
+    .rodape .card-group {
+        display: flex;
+        /* flex-wrap: wrap;  */
+    }
+
+    /* Venha nos visitar alinhado à esquerda */
+    .card-body-1 {
+        /* flex: 1; */
+        text-align: center;
+        max-width: 100%;
+        /* Limita a largura */
+    }
+
+    /* Horários da Academia alinhado à direita */
+    .card-body-3 {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    /* Siga-nos nas redes sociais centralizado abaixo */
+    .card-body-2 {
+        justify-content: space-between;
+        justify-items: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .card-body-1 h3 {
+        font-size: medium;
+    }
+
+    .card-body-1 li {
+        font-size: medium;
+    }
+
+    .card-body-2 h3 {
+        font-size: medium;
+    }
+
+    .card-body-3 h3 {
         font-size: medium;
     }
 
@@ -943,8 +1202,84 @@ h1.texto {
         width: 50px;
     }
 
+    /*===  Rodape Developers ===*/
+    .rodape-DevRGT {
+        background-color: #333;
+        /* Cor de fundo */
+        color: white;
+        /* padding: 20px 10px; */
+        /* text-align: center; */
+        margin-top: 45px;
+        /* Aumente para garantir espaçamento entre o rodapé principal e o DevRGT */
+        z-index: 10;
+        /* Garanta que a seção esteja acima de outras */
+        position: relative;
+        width: auto;
+        height: 150px;
+        border-radius: 0px 0px 25px 25px;
+        
+    }
+
+    .rodape-DevRGT .interface {
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+    
+    .rodape-DevRGT .flex {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape-DevRGT .logo-footer img {
+        width: 100px;
+        max-height: 50px;
+    }
+
+    .rodape-DevRGT .btn-social a {
+        display: inline-block;
+        margin: 10px;
+        padding: auto;
+        width: 15px;
+        height: 5px;
+        border: transparent;
+    }
+    
+    .rodape-DevRGT .btn-social button {
+        background-color: transparent;
+        color: white;
+        transition: background-color 0.3s ease;
+        text-decoration: none;
+        
+    }
+    
+    .rodape-DevRGT .btn-social button:hover {
+        background-color: #f36f6f;
+    }
+    
+    .rodape-DevRGT .line-footer {
+       padding: 10px;
+    }
+
+    .rodape-DevRGT .line-footer .designby {
+        font-size: 0.8em;
+        color: #ccc;
+    }
+
+    .rodape-DevRGT .line-footer .designby span {
+        color: #ff8400;
+        font-weight: bold;
+    }
+
+    .rodape-DevRGT #falecom {
+        text-decoration: none;
+        color: white;
+    }
+
 
 }
+
+
+
 
 /* ===== Responsividade para dispositivos Tablet  ==== */
 @media (min-width: 600px) and (max-width: 835px) {
@@ -994,7 +1329,7 @@ h1.texto {
         margin-top: 30px;
     }
 
-    /* Area Conatiner Serviços*/
+    /* Area Container Serviços*/
 
     .container-servico {
         padding: 40px 20px;

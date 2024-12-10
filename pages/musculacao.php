@@ -24,7 +24,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
     <!--quem somos-->
     <section class="container-quem-somos">
         <article class="servico">
-            <img class="foto_capa" src="../Assets/imagem/musculacao.png" class="icone" alt="icone" alt="musculação">
+            <img class="foto_capa" src="../Assets/imagem/musculacao.png" alt="musculação">
             <p class="servico-texto">
                 Na <span class="servico-texto-realce"> Academia Acqua Vida </span>, nossa abordagem à musculação vai muito além do treino tradicional. Cada aluno recebe atenção personalizada, com programas de treino desenhados para atender aos seus objetivos individuais — seja para melhorar o condicionamento físico, aprimorar a performance esportiva ou realizar uma reabilitação segura e eficaz. Com uma equipe de profissionais qualificados, oferecemos acompanhamento próximo e personalizado, ajustando os treinos de acordo com o progresso e as necessidades de cada fase.
 

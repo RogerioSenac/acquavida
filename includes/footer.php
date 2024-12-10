@@ -41,11 +41,10 @@
 
 <!-- Rodapé DevRGT -->
 <section class="rodape-DevRGT">
-    <div class="interface" id="contato">
-        <div class="line-footer">
-            <!-- <div class="flex">
+    <div class="interface">
+            <div class="flex">
                 <div class="logo-footer">
-                    <img src="./Assets/imagem/logoDev.png" alt="Logotipo" class="img-fluid" style="max-height: 100px;">
+                    <img src="./Assets/imagem/logoDev.png" alt="Logotipo">
                 </div>
                 <div class="btn-social">
                     <a href="#"><button><i class="fa-brands fa-facebook"></i></button></a>
@@ -54,16 +53,15 @@
                     <a href="https://www.youtube.com/@developers_rgt" target="_blank"><button><i class="fa-brands fa-youtube"></i></button></a>
                     <a href="https://github.com/DevelopersRGT" target="_blank"><button><i class="fa-brands fa-github"></i></button></a>
                 </div>
-            </div> -->
-            <div class="line-footer borda">
-                <p class="designby">
-                    <span>Design By - Rogerio Pupo Toledo</span>
-                </p>
+            </div>
+            <div class="line-footer">
                 <p>
                     <i class="fa-solid fa-envelope" id="faleicon"></i>
                     <a id="falecom" href="mailto:falecomdevelopersrgt@gmail.com">falecomdevelopersrgt@gmail.com</a>
                 </p>
+                <p class="designby">
+                    <span>Design By - Rogerio Pupo Toledo</span>
+                </p>
             </div>
-        </div>
     </div>
 </section>
