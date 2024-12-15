@@ -353,6 +353,7 @@ h1.texto {
     justify-content: center;
     color: white;
     position: relative;
+
 }
 
 #mapa::before {
@@ -1087,7 +1088,7 @@ h1.texto {
         padding: 10px;
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -1235,14 +1236,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -1261,21 +1262,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -1416,7 +1417,7 @@ h1.texto {
         padding: 10px;
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -1563,14 +1564,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -1589,21 +1590,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -1742,7 +1743,7 @@ h1.texto {
         padding: 10px;
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -1889,14 +1890,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -1915,21 +1916,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -2069,7 +2070,7 @@ h1.texto {
         padding: 10px;
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -2216,14 +2217,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -2242,21 +2243,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -2396,7 +2397,7 @@ h1.texto {
         padding: 10px;
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -2543,14 +2544,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -2569,21 +2570,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -2722,7 +2723,7 @@ h1.texto {
         padding: 10px;
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -2869,14 +2870,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -2895,21 +2896,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -3048,7 +3049,7 @@ h1.texto {
         padding: 10px;
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -3195,14 +3196,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -3221,21 +3222,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -3375,7 +3376,7 @@ h1.texto {
         padding: 10px;
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -3522,14 +3523,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -3548,21 +3549,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -3701,7 +3702,7 @@ h1.texto {
         padding: 10px;
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -3848,14 +3849,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -3874,21 +3875,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -4027,7 +4028,7 @@ h1.texto {
         padding: 10px;
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -4174,14 +4175,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -4200,21 +4201,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -4354,7 +4355,7 @@ h1.texto {
         padding: 10px;
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -4501,14 +4502,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -4527,21 +4528,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -4680,7 +4681,7 @@ h1.texto {
         padding: 10px;
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -4827,14 +4828,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -4853,21 +4854,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -4978,7 +4979,7 @@ h1.texto {
 
     .container-servico .botoes-servicos {
         display: flex;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;
         padding: 4px;
         align-self: center;
         align-items: center;
@@ -5004,10 +5005,10 @@ h1.texto {
         margin-bottom: 10px;
         /* Espaço entre a imagem e o texto */
         padding: 10px;
-       
+
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -5154,14 +5155,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -5180,21 +5181,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -5304,7 +5305,7 @@ h1.texto {
 
     .container-servico .botoes-servicos {
         display: flex;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;
         padding: 4px;
         align-self: center;
         align-items: center;
@@ -5330,10 +5331,10 @@ h1.texto {
         margin-bottom: 10px;
         /* Espaço entre a imagem e o texto */
         padding: 10px;
-       
+
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -5480,14 +5481,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -5506,21 +5507,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -5630,7 +5631,7 @@ h1.texto {
 
     .container-servico .botoes-servicos {
         display: flex;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;
         padding: 4px;
         align-self: center;
         align-items: center;
@@ -5656,10 +5657,10 @@ h1.texto {
         margin-bottom: 10px;
         /* Espaço entre a imagem e o texto */
         padding: 10px;
-       
+
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -5806,14 +5807,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -5832,21 +5833,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -5956,7 +5957,7 @@ h1.texto {
 
     .container-servico .botoes-servicos {
         display: flex;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;
         padding: 4px;
         align-self: center;
         align-items: center;
@@ -5982,10 +5983,10 @@ h1.texto {
         margin-bottom: 10px;
         /* Espaço entre a imagem e o texto */
         padding: 10px;
-       
+
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -6132,14 +6133,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -6158,21 +6159,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -6283,7 +6284,7 @@ h1.texto {
 
     .container-servico .botoes-servicos {
         display: flex;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;
         padding: 4px;
         align-self: center;
         align-items: center;
@@ -6309,10 +6310,10 @@ h1.texto {
         margin-bottom: 10px;
         /* Espaço entre a imagem e o texto */
         padding: 10px;
-       
+
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -6459,14 +6460,14 @@ h1.texto {
         width: auto;
         height: 150px;
         border-radius: 0px 0px 25px 25px;
-        
+
     }
 
     .rodape-DevRGT .interface {
         margin: 0 auto;
         justify-content: space-around;
     }
-    
+
     .rodape-DevRGT .flex {
         display: flex;
         justify-content: space-around;
@@ -6485,21 +6486,21 @@ h1.texto {
         height: 5px;
         border: transparent;
     }
-    
+
     .rodape-DevRGT .btn-social button {
         background-color: transparent;
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        
+
     }
-    
+
     .rodape-DevRGT .btn-social button:hover {
         background-color: #f36f6f;
     }
-    
+
     .rodape-DevRGT .line-footer {
-       padding: 10px;
+        padding: 10px;
     }
 
     .rodape-DevRGT .line-footer .designby {
@@ -6527,11 +6528,6 @@ h1.texto {
 
     body {
         background-color: black;
-    }
-
-    /*Area Cabeçalho*/
-    .container-fluid .piscina {
-        width: 100%;
     }
 
     h1.texto {
@@ -6610,7 +6606,7 @@ h1.texto {
 
     .container-servico .botoes-servicos {
         display: flex;
-        flex-wrap: wrap;    
+        flex-wrap: wrap;
         padding: 4px;
         align-self: center;
         align-items: center;
@@ -6622,24 +6618,24 @@ h1.texto {
     }
 
     .col-4 {
-        width: 100%;
+        width: 30%;
         /* Tamanho de cada botão em uma linha (dois botões por linha) */
         margin: 10px;
         /* Espaço entre os botões */
     }
 
     .botoes-servicos .icone {
-        width: 450px;
+        width: 250px;
         /* Define uma largura fixa para as imagens */
-        height: 300px;
+        height: 200px;
         /* Mantém a proporção das imagens */
         margin-bottom: 10px;
         /* Espaço entre a imagem e o texto */
         padding: 10px;
-       
+
     }
 
-        /* Ajuste dos itens de página Quem Somos */
+    /* Ajuste dos itens de página Quem Somos */
     .container-quem-somos .servico {
         width: 90%;
         /* Ajusta a largura do serviço */
@@ -6670,9 +6666,9 @@ h1.texto {
         justify-content: space-between;
         padding: 0;
         margin: 0;
-        width: 20%;
-        height: 450px;
-        margin-top: -15px;
+        width: 19%;
+        height: 425px;
+        margin-top: -19px;
         margin-left: -10px;
     }
 
@@ -6715,10 +6711,11 @@ h1.texto {
 
     /* == Ajuste dos itens de área do footer == */
     .rodape {
+        margin: 0;
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         flex-wrap: wrap;
-        height: 100%;
+        /* height: 100%; */
         font-size: medium;
     }
 
@@ -6731,22 +6728,22 @@ h1.texto {
     .card-body-1 {
         /* flex: 1; */
         text-align: center;
-        max-width: 100%;
+        /* max-width: 100%; */
         /* Limita a largura */
     }
 
     /* Horários da Academia alinhado à direita */
     .card-body-3 {
         text-align: center;
-        max-width: 100%;
+        /* max-width: 100%; */
     }
 
     /* Siga-nos nas redes sociais centralizado abaixo */
     .card-body-2 {
         justify-content: space-between;
         justify-items: center;
-        width: 100%;
-        margin-top: 20px;
+        /* width: 100%; */
+        /* margin-top: 20px; */
     }
 
     .card-body-1 h3 {
@@ -6772,76 +6769,35 @@ h1.texto {
     }
 
     /*===  Rodape Developers ===*/
-    .rodape-DevRGT {
-        background-color: #333;
-        /* Cor de fundo */
-        color: white;
-        /* padding: 20px 10px; */
-        /* text-align: center; */
-        margin-top: 45px;
-        /* Aumente para garantir espaçamento entre o rodapé principal e o DevRGT */
-        z-index: 10;
-        /* Garanta que a seção esteja acima de outras */
-        position: relative;
-        width: auto;
-        height: 150px;
-        border-radius: 0px 0px 25px 25px;
-        
+    .logo-footer img {
+        width: 200px;
+        height: 100px;
+        border: solid red;
     }
 
-    .rodape-DevRGT .interface {
-        margin: 0 auto;
-        justify-content: space-around;
-    }
-    
-    .rodape-DevRGT .flex {
-        display: flex;
-        justify-content: space-around;
+    .flex {
+        justify-content: space-between;
+        box-sizing: border-box;
     }
 
-    .rodape-DevRGT .logo-footer img {
-        width: 100px;
-        max-height: 50px;
+    .line-footer {
+        padding: 20px 0;
+        justify-content: space-between;
     }
 
-    .rodape-DevRGT .btn-social a {
-        display: inline-block;
-        margin: 10px;
-        padding: auto;
-        width: 15px;
-        height: 5px;
-        border: transparent;
-    }
-    
-    .rodape-DevRGT .btn-social button {
-        background-color: transparent;
-        color: white;
-        transition: background-color 0.3s ease;
-        text-decoration: none;
-        
-    }
-    
-    .rodape-DevRGT .btn-social button:hover {
-        background-color: #f36f6f;
-    }
-    
-    .rodape-DevRGT .line-footer {
-       padding: 10px;
-    }
-
-    .rodape-DevRGT .line-footer .designby {
-        font-size: 0.8em;
-        color: #ccc;
-    }
-
-    .rodape-DevRGT .line-footer .designby span {
+    .line-footer p i {
         color: #ff8400;
-        font-weight: bold;
+        font-size: 22px;
     }
 
-    .rodape-DevRGT #falecom {
+    .line-footer p a {
         text-decoration: none;
-        color: white;
+        color: #fff;
+    }
+
+    .line-footer .borda {
+        margin-top: 10px;
+        border-top: 5px solid #ff8400;
+        display: flex;
     }
 }
-
