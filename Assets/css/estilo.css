@@ -599,16 +599,18 @@ h1.texto {
     =========================================================== */
 
 .rodape-DevRGT {
+    margin: 0;
     background-color: #333;
     /* Cor de fundo */
     color: white;
     padding: 20px 10px;
     text-align: center;
-    margin-top: 10px;
     /* Aumente para garantir espaçamento entre o rodapé principal e o DevRGT */
     z-index: 10;
     /* Garanta que a seção esteja acima de outras */
     position: relative;
+    height: auto;
+    /* border: solid red; */
 }
 
 .rodape-DevRGT .interface {
@@ -626,7 +628,9 @@ h1.texto {
 }
 
 .rodape-DevRGT .logo-footer img {
-    max-height: 20px;
+    width: 200px;
+    height: 50px;
+
 }
 
 .rodape-DevRGT .btn-social a {
@@ -6769,11 +6773,11 @@ h1.texto {
     }
 
     /*===  Rodape Developers ===*/
-    .logo-footer img {
+    /* .logo-footer img {
         width: 200px;
-        height: 100px;
+        height: 200px;
         border: solid red;
-    }
+    } */
 
     .flex {
         justify-content: space-between;

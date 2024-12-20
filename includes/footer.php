@@ -45,7 +45,7 @@
             <div class="line-footer">
                 <div class="flex">
                     <div class="logo-footer">
-                        <img src="../Assets/imagem/logoDev.png">
+                        <img src="./Assets/imagem/logoDev.png">
                     </div> <!--Fim logo-footer-->
                     <div class="btn-social">
                         <a href="#"><button><i class="fa-brands fa-facebook"></i></button></a>
@@ -67,7 +67,7 @@
                     </p>
 
                     <p class="designby">
-                        Design By <span>Dev</span>elopers <span>RGT</span>
+                        Design By <span>Rogerio Pupo Toledo</span>
                     </p>
                 </div><!--Fim Line-Footer Borda-->
             </div><!--Fim Line-footer-->
