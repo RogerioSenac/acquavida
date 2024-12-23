@@ -45,19 +45,19 @@
             <div class="line-footer">
                 <div class="flex">
                     <div class="logo-footer">
-                        <img src="../Assets/imagem/logoDev.png">
+                        <img src="./Assets/imagem/logoDev.png">
                     </div> <!--Fim logo-footer-->
-                    <div class="btn-social">
-                        <a href="#"><button><i class="fa-brands fa-facebook"></i></button></a>
+                    <div class="btn-contato">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></button></a>
 
-                        <a href="https://www.instagram.com/developers.rgt?igsh=MXF1bml6OHAyeXcwNA==" target="_blank"><button><i class="fa-brands fa-instagram"></i></button></a>
+                        <a href="https://www.instagram.com/developers.rgt?igsh=MXF1bml6OHAyeXcwNA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
 
-                        <a href="https://www.linkedin.com/in/developers-rgt-862402309" target="_blank"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                        <a href="https://www.linkedin.com/in/developers-rgt-862402309" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
 
                         <a href="https://www.youtube.com/@developers_rgt?si=oQlWOmaRf2SRPzlD&fbclid=PAZXh0bgNhZW0CMTEAAaYqnLMgVcRIadkyQ5bQ6MNxTCTzn54hLfiPhnE_JIKYDPlky-PEubYzu0g_aem_AZ5WecxAIc8cxdrGFj8cjiGjndHYazGJ6A-xIEf5Gyn1Et8ZO3SSA65_nPesYYSksfh2gltMmyF2FESUFtbq0KQ2
-                        " target="_blank"><button><i class="fa-brands fa-youtube"></i></button></a>
+                        " target="_blank"><i class="fa-brands fa-youtube"></i></a>
 
-                        <a href="https://github.com/DevelopersRGT" target="_blank"><button><i class="fa-brands fa-github"></i></button></a>
+                        <a href="https://github.com/DevelopersRGT" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div> <!--Fim btn-social-->
                 </div><!--Fim Flex-->
                 <div class="line-footer borda">
@@ -67,7 +67,7 @@
                     </p>
 
                     <p class="designby">
-                        Design By <span>Dev</span>elopers <span>RGT</span>
+                         <span>Design By </span>Rogerio Pupo Toledo
                     </p>
                 </div><!--Fim Line-Footer Borda-->
             </div><!--Fim Line-footer-->
