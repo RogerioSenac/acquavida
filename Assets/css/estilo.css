@@ -208,6 +208,11 @@ h1.texto {
     background-color: goldenrod;
 }
 
+.container-quem-somos .servico .foto_capa{
+    width: 600px;
+    height: 350px;
+}
+
 .container-quem-somos .servico-texto {
     font-family: 'Courier New', Courier, monospace;
     margin-top: 15px;
@@ -1263,6 +1268,7 @@ h1.texto {
         height: auto;
         font-size: medium;
         margin: 0;
+
     }
 
     .rodape .card-group {

@@ -51,7 +51,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/Projetos_Git/Projeto-Acqua-Vida/includes/h
                     <a href="./pages/baby.php">Natação Infantil</a>
                 </div>
                 <div class="col-4">
-                    <img src="./Assets/imagem/natacao2.png" class="icone" alt="natação">
+                    <img src="./Assets/imagem/natacao.png" class="icone" alt="natação">
                     <a href="./pages/natacao.php">Natação Geral</a>
                 </div>
                 <div class="col-4">

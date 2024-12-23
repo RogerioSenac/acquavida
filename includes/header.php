@@ -21,7 +21,7 @@
     <!-- Cabeçalho e Navegação -->
     <div class="container-fluid">
         <a class="piscina" href="#">
-            <img src="/Projeto-Acqua-Vida/Assets/imagem/logo_acqua_vida.jpg" alt="Logotipo"
+            <img src="../../../Projetos_Git/Projeto-Acqua-Vida/Assets/imagem/logo_acqua_vida.jpg" alt="Logotipo"
                 class="img-fluid">
         </a>
     </div>
@@ -33,10 +33,10 @@
         <div class="collapse navbar-collapse" id="navbarNav" data-bs-theme="dark">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/Projeto-Acqua-Vida/index.php">Início</a>
+                    <a class="nav-link" href="/Projetos_Git/Projeto-Acqua-Vida/index.php">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Projeto-Acqua-Vida/pages/quem_somos.php">Sobre Nós</a>
+                    <a class="nav-link" href="/Projetos_Git/Projeto-Acqua-Vida/pages/quem_somos.php">Sobre Nós</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.facebook.com/AcademiaAcquaVida/photos_by?locale=pt_BR" target="_blank">Fotos</a>
