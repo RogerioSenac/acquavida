@@ -561,8 +561,7 @@ h1.texto {
     color: var(--color);
     font-size: 2.5em;
     -webkit-box-reflect: below 1px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-    /* Efeito de espelhamento */
-  
+    /* Efeito de espelhamento */ 
 }
 
 .social-icons a:hover {
@@ -615,7 +614,6 @@ h1.texto {
     /* Garanta que a seção esteja acima de outras */
     position: relative;
     height: auto;
-    /* border: solid red; */
 }
 
 .rodape-DevRGT .interface {
@@ -632,9 +630,9 @@ h1.texto {
     align-items: center;
 }
 
-.rodape-DevRGT .logo-footer img {
+/* .rodape-DevRGT .logo-footer img {
     max-height: 20px;
-}
+} */
 
 .rodape-DevRGT .btn-contato a {
     text-decoration: none;
@@ -6573,7 +6571,7 @@ h1.texto {
         /* Garanta que a seção esteja acima de outras */
         position: relative;
         width: auto;
-        height: 150px;
+        height: 250px;
         border-radius: 0px 0px 25px 25px;
 
     }
@@ -6890,14 +6888,14 @@ h1.texto {
         color: white;
         /* padding: 20px 10px; */
         /* text-align: center; */
-        margin-top: 45px;
+        margin-top: 5px;
         /* Aumente para garantir espaçamento entre o rodapé principal e o DevRGT */
         z-index: 10;
         /* Garanta que a seção esteja acima de outras */
         position: relative;
         width: auto;
         height: 150px;
-        border-radius: 0px 0px 25px 25px;
+        /* border-radius: 0px 0px 25px 25px; */
         
     }
 
@@ -6920,5 +6918,11 @@ h1.texto {
         margin-top: 10px;
         border-top: 5px solid #ff8400;
         display: flex;
+    }
+
+    .rodape-DevRGT .logo-footer img {
+        width: 200px;
+        height: 50px;
+        border: solid red;
     }
 }
