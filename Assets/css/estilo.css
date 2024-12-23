@@ -599,16 +599,18 @@ h1.texto {
     =========================================================== */
 
 .rodape-DevRGT {
+    margin: 0;
     background-color: #333;
     /* Cor de fundo */
     color: white;
     padding: 20px 10px;
     text-align: center;
-    margin-top: 10px;
     /* Aumente para garantir espaçamento entre o rodapé principal e o DevRGT */
     z-index: 10;
     /* Garanta que a seção esteja acima de outras */
     position: relative;
+    height: auto;
+    /* border: solid red; */
 }
 
 .rodape-DevRGT .interface {
@@ -625,9 +627,8 @@ h1.texto {
     align-items: center;
 }
 
-.logo-footer img {
-    width: 200px;
-    height: 50px;
+.rodape-DevRGT .logo-footer img {
+    max-height: 20px;
 }
 
 .rodape-DevRGT .btn-contato a {
@@ -1331,8 +1332,7 @@ h1.texto {
         width: auto;
         height: 160px;
         border-radius: 0px 0px 25px 25px;
-        border: solid red;
-
+        
     }
 
     .rodape-DevRGT .interface {
@@ -1366,8 +1366,7 @@ h1.texto {
         color: white;
         transition: background-color 0.3s ease;
         text-decoration: none;
-        border: none;
-
+        
     }
 
     .rodape-DevRGT .btn-social button:hover {
@@ -2314,10 +2313,9 @@ h1.texto {
         /* Garanta que a seção esteja acima de outras */
         position: relative;
         width: auto;
-        height: 250px;
-        /* border-radius: 0px 0px 25px 25px; */
-   
-
+        height: 150px;
+        border-radius: 0px 0px 25px 25px;
+        
     }
 
     .rodape-DevRGT .interface {
@@ -6882,14 +6880,21 @@ h1.texto {
     }
 
     /*===  Rodape Developers ===*/
-    .logo-footer img {
-        width: 200px;
-        height: 50px;
-    }
-
-    .flex {
-        justify-content: space-between;
-        box-sizing: border-box;
+    .rodape-DevRGT {
+        background-color: #333;
+        /* Cor de fundo */
+        color: white;
+        /* padding: 20px 10px; */
+        /* text-align: center; */
+        margin-top: 45px;
+        /* Aumente para garantir espaçamento entre o rodapé principal e o DevRGT */
+        z-index: 10;
+        /* Garanta que a seção esteja acima de outras */
+        position: relative;
+        width: auto;
+        height: 150px;
+        border-radius: 0px 0px 25px 25px;
+        
     }
 
     .line-footer {
