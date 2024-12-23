@@ -41,35 +41,29 @@
 
 <!-- Rodapé DevRGT -->
 <section class="rodape-DevRGT">
-<div class="interface" id="contato">
-            <div class="line-footer">
-                <div class="flex">
-                    <div class="logo-footer">
-                        <img src="./Assets/imagem/logoDev.png">
-                    </div> <!--Fim logo-footer-->
-                    <div class="btn-social">
-                        <a href="#"><button><i class="fa-brands fa-facebook"></i></button></a>
-
-                        <a href="https://www.instagram.com/developers.rgt?igsh=MXF1bml6OHAyeXcwNA==" target="_blank"><button><i class="fa-brands fa-instagram"></i></button></a>
-
-                        <a href="https://www.linkedin.com/in/developers-rgt-862402309" target="_blank"><button><i class="fa-brands fa-linkedin"></i></button></a>
-
-                        <a href="https://www.youtube.com/@developers_rgt?si=oQlWOmaRf2SRPzlD&fbclid=PAZXh0bgNhZW0CMTEAAaYqnLMgVcRIadkyQ5bQ6MNxTCTzn54hLfiPhnE_JIKYDPlky-PEubYzu0g_aem_AZ5WecxAIc8cxdrGFj8cjiGjndHYazGJ6A-xIEf5Gyn1Et8ZO3SSA65_nPesYYSksfh2gltMmyF2FESUFtbq0KQ2
-                        " target="_blank"><button><i class="fa-brands fa-youtube"></i></button></a>
-
-                        <a href="https://github.com/DevelopersRGT" target="_blank"><button><i class="fa-brands fa-github"></i></button></a>
-                    </div> <!--Fim btn-social-->
-                </div><!--Fim Flex-->
-                <div class="line-footer borda">
-                    <p>
-                        <i class="fa-solid fa-envelope" id="faleicon"></i> <a id="falecom"
-                            href="mailto:falecomdevelopersrgt@gmail.com">falecomdevelopersrgt@gmail.com</a>
-                    </p>
-
-                    <p class="designby">
-                        Design By <span>Rogerio Pupo Toledo</span>
-                    </p>
-                </div><!--Fim Line-Footer Borda-->
-            </div><!--Fim Line-footer-->
-        </div><!--Fim Interface-->
+    <div class="interface" id="contato">
+        <div class="line-footer">
+            <!-- <div class="flex">
+                <div class="logo-footer">
+                    <img src="./Assets/imagem/logoDev.png" alt="Logotipo" class="img-fluid" style="max-height: 100px;">
+                </div>
+                <div class="btn-social">
+                    <a href="#"><button><i class="fa-brands fa-facebook"></i></button></a>
+                    <a href="https://www.instagram.com/developers.rgt" target="_blank"><button><i class="fa-brands fa-instagram"></i></button></a>
+                    <a href="https://www.linkedin.com/in/developers-rgt-862402309" target="_blank"><button><i class="fa-brands fa-linkedin"></i></button></a>
+                    <a href="https://www.youtube.com/@developers_rgt" target="_blank"><button><i class="fa-brands fa-youtube"></i></button></a>
+                    <a href="https://github.com/DevelopersRGT" target="_blank"><button><i class="fa-brands fa-github"></i></button></a>
+                </div>
+            </div> -->
+            <div class="line-footer borda">
+                <p class="designby">
+                    <span>Design By - Rogerio Pupo Toledo</span>
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope" id="faleicon"></i>
+                    <a id="falecom" href="mailto:falecomdevelopersrgt@gmail.com">falecomdevelopersrgt@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
 </section>
